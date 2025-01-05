@@ -13,7 +13,7 @@ const Trusted = () => {
     return (
         <section>
             <h3 className='font-pingFangSCRegular font-semibold text-[72px] text-white w-full text-center mt-40'>Trusted Clients and Partners</h3>
-            <p className='font-pingFangSCLight text-xl text-[#ADABB2] text-center mt-8 w-[1280px] mx-auto'>ZenHive leverages AI-powered data analysis and AIGC technology to analyze consumer behavior, create personalized content, and expand consumer outreach across social media platforms, boosting our distribution channels’ sales conversions effectively and efficiently.</p>
+            <p className='font-pingFangSCLight text-xl text-[#ADABB2] text-center mt-8 w-[1280px] px-0 xl:px-10 mx-auto'>ZenHive leverages AI-powered data analysis and AIGC technology to analyze consumer behavior, create personalized content, and expand consumer outreach across social media platforms, boosting our distribution channels’ sales conversions effectively and efficiently.</p>
 
             <div className={`mask-gradient whitespace-nowrap overflow-hidden w-full h-[50px] p-0 mt-10 mb-40 hide-scrollbar`}>
                 <div className={`relative mx-auto py-0 my-4 px-0 border-hidden whitespace-normal h-[50px] `}

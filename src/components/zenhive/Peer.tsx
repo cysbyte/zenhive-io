@@ -69,7 +69,7 @@ const Peer = () => {
                 {
                     data1.map((item) => (
                         <div key={item.id} className='w-[326px] relative'>
-                            <img className='absolute top-0 right-0 mt-20 -mr-9' src={border} alt="" />
+                            {item.id < 3 && <img className='absolute top-0 right-0 mt-20 xl:-mr-9 -mr-4' src={border} alt="" />}
                             <img src={item.icon} alt="" />
                             <h5 className='font-pingFangSCRegular text-xl text-white my-6'>{item.title}</h5>
                             <p className='font-pingFangSCLight text-base text-[#ADABB2]'>{item.desc1}</p>
@@ -80,7 +80,7 @@ const Peer = () => {
             </div>
             <div className='w-full h-[400px] flex justify-between items-start gap-6 overflow-hidden mt-40 bg-gradient-to-r from-[#141712] to-[#12120C]'>
                 {
-                    data2.map((item)=>(
+                    data2.map((item) => (
                         <div className='border border-[#454645] rounded-xl h-full overflow-hidden p-5 flex-1'>
                             <img src={item.icon} alt="" />
                             <h5 className='font-pingFangSCRegular text-white text-3xl mt-10 mb-4'>{item.title}</h5>

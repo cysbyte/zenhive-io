@@ -37,8 +37,7 @@ const Commercial = () => {
         <div className='w-full flex justify-between items-center mt-32'>
             {
                 data.map((item)=>(
-                    <div key={item.id} className='w-[400px] h-[228px] flex flex-col justify-center items-center relative'>
-                        <img className='absolute left-0 top-0 border border-[#454645] rounded-lg overflow-hidden' src={bg} alt="" />
+                    <div key={item.id} className='xl:w-[400px] w-[380px] h-[228px] flex flex-col justify-center items-center relative rounded-xl border border-[#454645] bg-gradient-to-br from-[#373C27] to-[#21251F]'>
                         <img className='z-10 -mt-24' src={item.icon} alt="" />
                         <h5 className='z-10 font-pingFangSCRegular text-white text-2xl mt-6 mb-4'>{item.title}</h5>
                         <p className='z-10 font-pingFangSCLight text-[#ADABB2] text-xl'>{item.desc1}</p>

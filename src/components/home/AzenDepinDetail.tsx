@@ -29,7 +29,7 @@ const AzenDepinDetail = () => {
         <div className='w-full h-[616px] relative rounded-2xl overflow-hidden border border-[#3D3E3D]'>
             <img className='absolute top-0 right-0 w-full h-full' src={bg} alt="" />
             <div>
-                <div className='relative z-10 w-[553px] grid grid-cols-2 grid-rows-2 gap-x-0 gap-y-8 mt-44 xl:ml-[38rem] ml-[42rem]'>
+                <div className='relative z-10 w-[553px] grid grid-cols-2 grid-rows-2 gap-x-0 gap-y-8 mt-44 ml-[38rem] xl:ml-[42rem]'>
                     {
                         data.map((item) => (
                             <div key={item.id}>

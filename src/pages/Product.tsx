@@ -20,7 +20,7 @@ const Product = () => {
           <div className='absolute left-0 bottom-0 z-10 w-[1962px] h-[480px] bg-gradient-to-r from-[#76EC37] to-[#B5F60100]'></div>
           <img className='absolute -left-0 -top-20 w-[2220px] h-[1420px] z-20 -ml-0' src={bg2} alt="" />
           <img className='absolute -left-[700px] top-0 z-20 -ml-10' src={ellipse} alt="" />
-          <img className='absolute top-0 xl:-right-20 right-20 z-20 mr-[11rem] xl:mr-0' src={bg1} alt="" />
+          <img className='absolute top-0 -right-20 xl:right-20 z-20 xl:mr-[11rem] mr-0' src={bg1} alt="" />
           <Header />
           <Hero />
         </div>

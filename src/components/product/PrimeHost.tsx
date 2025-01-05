@@ -4,7 +4,7 @@ import bg2 from '@/assets/product/earn3/bg-prime-host2.svg'
 
 const PrimeHost = () => {
   return (
-    <div className='relative w-full h-[500px] border border-[#C0EE02] rounded-xl mt-20'>
+    <div className='relative w-full h-[500px] border border-[#C0EE02] rounded-xl mt-20 overflow-hidden'>
         <img className='absolute left-0 top-0 z-30 h-[500px]' src={bg1} alt="" />
         <img className='absolute left-0 top-0 z-20' src={bg2} alt="" />
         <div className='ml-[750px] mt-[100px]'>

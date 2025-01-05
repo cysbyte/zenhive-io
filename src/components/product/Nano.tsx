@@ -4,7 +4,7 @@ import bg2 from '@/assets/product/earn3/bg-nano2.svg'
 
 const Nano = () => {
   return (
-    <div className='relative w-full h-[500px] border border-[#3D3E3D] rounded-xl mt-20'>
+    <div className='relative w-full h-[500px] border border-[#3D3E3D] rounded-xl mt-20 overflow-hidden'>
         <img className='absolute right-0 top-0 z-30 h-[500px]' src={bg1} alt="" />
         <img className='absolute right-0 top-0 z-20' src={bg2} alt="" />
         <div className='ml-[90px] mt-[100px]'>

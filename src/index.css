@@ -25,3 +25,50 @@
   font-weight: lighter;
   font-style: light;
 }
+
+.logo-animation {
+  display: inline-flex;
+  animation: scrollLeft 15s linear infinite;
+  height: 50px;
+  margin: auto;
+}
+
+.delay1 {
+  animation-delay: calc(15s / 9 * (9 - 1) * -1);
+}
+.delay2 {
+  animation-delay: calc(15s / 9 * (9 - 2) * -1);
+}
+.delay3 {
+  animation-delay: calc(15s / 9 * (9 - 3) * -1);
+}
+.delay4 {
+  animation-delay: calc(15s / 9 * (9 - 4) * -1);
+}
+.delay5 {
+  animation-delay: calc(15s / 9 * (9 - 5) * -1);
+}
+.delay6 {
+  animation-delay: calc(15s / 9 * (9 - 6) * -1);
+}
+.delay6 {
+  animation-delay: calc(15s / 9 * (9 - 6) * -1);
+}
+.delay7 {
+  animation-delay: calc(15s / 9 * (9 - 7) * -1);
+}
+.delay8 {
+  animation-delay: calc(15s / 9 * (9 - 8) * -1);
+}
+.delay9 {
+  animation-delay: calc(15s / 9 * (9 - 9) * -1);
+}
+
+@keyframes scrollLeft {
+  0% {
+    left: 120%; 
+  }
+  100% {
+    left: -120px
+  }
+}

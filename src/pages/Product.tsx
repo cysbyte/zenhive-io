@@ -16,7 +16,7 @@ const Product = () => {
   return (
     <main className='overflow-x-hidden bg-black h-screen'>
       <Container>
-        <div className='w-full relative bg-[#0F1110]'>
+        <div className='w-full relative bg-[#0F1110] overflow-hidden'>
           <div className='absolute left-0 bottom-0 z-10 w-[1962px] h-[480px] bg-gradient-to-r from-[#76EC37] to-[#B5F60100]'></div>
           <img className='absolute -left-0 -top-20 w-[2220px] h-[1420px] z-20 -ml-0' src={bg2} alt="" />
           <img className='absolute -left-[700px] top-0 z-20 -ml-10' src={ellipse} alt="" />

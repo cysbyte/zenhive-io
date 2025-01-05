@@ -21,7 +21,7 @@ const ZenHive = () => {
       <Container>
         <div className='w-full relative bg-[#0F1110] h-[833px] '>
           <img className='absolute -left-0 -top-20 xl:top-0 w-[1920px] xl:w-[2220px] h-[920px] xl:h-[1420px] z-20 -ml-0' src={bg2} alt="" />
-          <img className='absolute bottom-14 xl:right-0 right-44 z-20' src={bg1} alt="" />
+          <img className='absolute bottom-14 right-0 xl:right-44 z-20' src={bg1} alt="" />
           <img className='absolute bottom-0 right-0 z-10' src={bg3} alt="" />
           <Header />
           <Hero />

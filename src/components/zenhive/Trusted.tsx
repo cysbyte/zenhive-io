@@ -18,15 +18,15 @@ const Trusted = () => {
             <div className={`mask-gradient whitespace-nowrap overflow-hidden w-full h-[50px] p-0 mt-10 mb-40 hide-scrollbar`}>
                 <div className={`relative mx-auto py-0 my-4 px-0 border-hidden whitespace-normal h-[50px] `}
                 >
-                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation delay1' src={logo1} alt='' />
-                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation delay2' src={logo2} alt='' />
-                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation delay3' src={logo3} alt='' />
-                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation delay4' src={logo4} alt='' />
-                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation delay5' src={logo5} alt='' />
-                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation delay6' src={logo6} alt='' />
-                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation delay7' src={logo7} alt='' />
-                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation delay8' src={logo8} alt='' />
-                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation delay9' src={logo9} alt='' />
+                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation-xl xl:logo-animation delay1' src={logo1} alt='' />
+                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation-xl xl:logo-animation delay2' src={logo2} alt='' />
+                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation-xl xl:logo-animation delay3' src={logo3} alt='' />
+                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation-xl xl:logo-animation delay4' src={logo4} alt='' />
+                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation-xl xl:logo-animation delay5' src={logo5} alt='' />
+                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation-xl xl:logo-animation delay6' src={logo6} alt='' />
+                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation-xl xl:logo-animation delay7' src={logo7} alt='' />
+                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation-xl xl:logo-animation delay8' src={logo8} alt='' />
+                    <img className='absolute h-[50px] left-[100%] top-0 -translate-y-1/2 logo-animation-xl xl:logo-animation delay9' src={logo9} alt='' />
                 </div>
             </div>
         </section>

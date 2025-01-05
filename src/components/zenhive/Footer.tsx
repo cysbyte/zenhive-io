@@ -1,5 +1,4 @@
 import React from 'react'
-import ContentContainer from '../container/ContentContainer'
 import logo from '@/assets/zenhive/footer/logo.svg'
 import socialLink1 from '@/assets/zenhive/footer/icon1.svg'
 import socialLink2 from '@/assets/zenhive/footer/icon2.svg'

@@ -3,7 +3,6 @@ import ContentContainer from '../container/ContentContainer'
 import icon1 from '@/assets/zenhive/commercial/icon1.svg'
 import icon2 from '@/assets/zenhive/commercial/icon2.svg'
 import icon3 from '@/assets/zenhive/commercial/icon3.svg'
-import bg from '@/assets/zenhive/commercial/bg.svg'
 
 const Commercial = () => {
     const data = [

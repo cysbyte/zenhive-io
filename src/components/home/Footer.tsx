@@ -36,7 +36,7 @@ const Footer = () => {
 
   return (
     <section className=' bg-[#151516] pt-12 pb-60'>
-        <div className='flex justify-between items-center w-[1280px] mx-auto px-0'>
+        <div className='flex justify-between items-center w-[1280px] mx-auto xl:px-10 px-0'>
             <div className='w-[430px]'>
                 <img src={logo} alt="" />
                 <p className='font-pingFangSCLight font-normal text-sm text-[#999999] mt-4'>aZen Protocol is transforming computing resources into dynamic fractional NFTs, scheduled by smart contracts to build the future of DePIN for universal computing.</p>
@@ -76,7 +76,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='flex justify-between items-center w-[1280px] mx-auto py-8 border-t-[0.5px] border-t-[#717171] mt-16'>
+        <div className='flex justify-between items-center w-[1280px] xl:px-10 px-0 mx-auto py-8 border-t-[0.5px] border-t-[#717171] mt-16'>
             <p className='font-pingFangSCLight font-normal text-sm text-[#999999]'>© 2024 aZen Protocol. All Rights Reserved.</p>
             <a className='font-pingFangSCLight font-normal text-sm text-[#999999]' href="">Terms of Use |  Privacy Policy</a>
         </div>

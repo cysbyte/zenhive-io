@@ -6,7 +6,7 @@ const PrimeHost = () => {
   return (
     <div className='relative w-full h-[500px] border border-[#C0EE02] rounded-xl mt-20 overflow-hidden'>
         <img className='absolute left-0 top-0 z-30 h-[500px]' src={bg1} alt="" />
-        <img className='absolute left-0 top-0 z-20' src={bg2} alt="" />
+        <img className='absolute left-0 top-0 z-20 object-cover h-full' src={bg2} alt="" />
         <div className='ml-[750px] mt-[100px]'>
             <h4 className='font-pingFangSCRegular text-3xl text-white '>ZenHive PrimeHost NFT</h4>
             <p className='font-pingFangSCLight text-base text-[#ADABB2] mt-2'>A ZenHive device hosted at a professional data center.</p>

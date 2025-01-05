@@ -8,7 +8,7 @@ const ZenHiveEdge = () => {
     return (
         <div className='relative w-full h-[1011px] border border-[#3D3E3D] rounded-xl mt-20 mb-40'>
             <img className='absolute right-0 top-0 z-20' src={bg} alt="" />
-            <img className='absolute right-0 bottom-0 z-20' src={bg2} alt="" />
+            <img className='absolute right-0 bottom-0 z-20 object-cover h-full' src={bg2} alt="" />
             <div className='w-full flex flex-col justify-start items-center'>
                 <h4 className='font-pingFangSCRegular text-5xl font-semibold text-white mt-16'>ZenHive Edge</h4>
                 <p className='font-pingFangSCLight text-base text-[#ADABB2] mt-6'>A physical device delivered to your address, ready to connect to the internet and electricity to start mining.</p>

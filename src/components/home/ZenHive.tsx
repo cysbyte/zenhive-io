@@ -30,8 +30,8 @@ const ZenHive = () => {
   return (
     <ContentContainer>
       <div className='relative w-full h-[697px] border border-[#3D3E3D] rounded-xl mt-40'>
-        <img className='absolute top-0 left-0 object-cover' src={bg} alt="" />
-        <div className='w-[550px] flex flex-col justify-start items-start gap-6 ml-[42rem] mt-16'>
+        <img className='absolute top-0 left-0 w-full h-full' src={bg} alt="" />
+        <div className='w-[550px] flex flex-col justify-start items-start gap-6 xl:ml-[38rem] ml-[42rem] mt-16'>
           <h2 className='font-inter font-semibold text-[72px] leading-[72px] tracking-[0.4px] text-center text-white w-full -ml-8'>ZenHive</h2>
           <p className='font-pingFangSCLight font-normal text-base text-[#D4D8DB]'>The first mass commercial adoption DePIN device built on aZen Protocol.</p>
           <div className='grid grid-cols-2 grid-rows-2 w-[515px] gap-x-20 gap-y-7 mt-8'>

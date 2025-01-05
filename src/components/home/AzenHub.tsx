@@ -23,7 +23,7 @@ const AzenHub = () => {
             <h2 className='font-pingFangSCRegular text-[72px] leading-[76px] tracking-[0.4px] font-semibold text-white mt-[11rem] w-full text-center'>aZen Hub</h2>
             <p className='font-pingFangSCLight text-xl font-normal tracking-[0.4px] text-[#ADABB2] w-full text-center mt-6 mb-20'>aZen Hub is the gateway to your DePIN experience. Integrated with the aZen DePIN protocol, users receive $aZen rewards as POC (Proof of Contribution) for sharing computing resources.</p>
             <div className='w-full h-[616px] relative rounded-2xl overflow-hidden border border-[#3D3E3D]'>
-                <img className='absolute top-0 right-0' src={bgAzenHub} alt="" />
+                <img className='absolute top-0 right-0 w-full h-full' src={bgAzenHub} alt="" />
                 <div>
                     <div className='flex justify-start items-center gap-24 mt-48 ml-10'>
                         {

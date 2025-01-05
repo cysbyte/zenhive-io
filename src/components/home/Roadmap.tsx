@@ -7,7 +7,7 @@ const Roadmap = () => {
     return (
         <section className='w-full relative h-[850px] mt-10 flex flex-col justify-center items-center gap-10'>
             <div>
-                <img className='absolute top-0 left-0 object-cover mix-blend-lighten' src={bg} alt="" />
+                <img className='absolute top-0 left-0 object-cover mix-blend-lighten w-full h-full' src={bg} alt="" />
                 <div className='absolute top-0 left-0 w-full h-full bg-[#B6F55E] mix-blend-hue'>
                 </div>
                 <div className='absolute top-0 left-0 w-full h-full bg-[#0F1110] mix-blend-hue'>

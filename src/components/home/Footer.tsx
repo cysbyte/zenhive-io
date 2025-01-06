@@ -19,22 +19,22 @@ const Footer = () => {
         {
             id: 1,
             icon: socialLink1,
-            link: '',
+            link: 'https://x.com/azen_protocol',
         },
         {
             id: 2,
             icon: socialLink2,
-            link: '',
+            link: 'https://t.me/azenprotocol',
         },
         {
             id: 3,
             icon: socialLink3,
-            link: '',
+            link: 'https://www.linkedin.com/company/azenprotocol/',
         },
         {
             id: 4,
             icon: socialLink4,
-            link: '',
+            link: 'https://medium.com/@azenprotocol',
         },
     ]
 
@@ -74,7 +74,7 @@ const Footer = () => {
                 <div className='flex justify-center items-center gap-3'>
                     {
                         socialLinks.map((item)=>(
-                            <a key={item.id} href={item.link}><img src={item.icon} alt="" /></a>
+                            <a key={item.id} target='_blank' href={item.link}><img src={item.icon} alt="" /></a>
                         ))
                     }
                 </div>

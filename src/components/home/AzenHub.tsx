@@ -23,7 +23,7 @@ const AzenHub = () => {
             <h2 className='font-pingFangSCRegular text-[72px] leading-[76px] tracking-[0.4px] font-semibold text-white mt-[11rem] w-full text-center'>aZen Hub</h2>
             <p className='font-pingFangSCLight text-xl font-normal tracking-[0.4px] text-[#ADABB2] w-full text-center mt-6 mb-20'>aZen Hub is the gateway to your DePIN experience. Integrated with the aZen DePIN protocol, users receive $aZen rewards as POC (Proof of Contribution) for sharing computing resources.</p>
             <div className='w-full h-[616px] relative rounded-2xl overflow-hidden border border-[#3D3E3D]'>
-                <img className='absolute top-0 -right-64 xl:right-0 w-full h-full' src={bgAzenHub} alt="" />
+                <img className='absolute top-0 -right-72 w-full h-full' src={bgAzenHub} alt="" />
                 <div>
                     <div className='flex justify-start items-center gap-24 mt-48 ml-10'>
                         {
@@ -35,10 +35,10 @@ const AzenHub = () => {
                             ))
                         }
                     </div>
-                    <div className='flex justify-start items-center gap-3 mt-20 ml-10'>
-                        <img className='hover:opacity-80 duration-300' src={appstore} alt="" />
-                        <img className='hover:opacity-80 duration-300' src={googleplay} alt="" />
-                        <img className='hover:opacity-80 duration-300' src={miniapp} alt="" />
+                    <div className='flex justify-start items-center gap-3 mt-20 ml-10 z-50 relative'>
+                        <a target='_blank' href="https://apps.apple.com/us/app/azen-connect/id6476482774"><img className='hover:opacity-80 duration-300' src={appstore} alt="" /></a>
+                        <a target='_blank' href="https://play.google.com/store/apps/details?id=com.azen.client"><img className='hover:opacity-80 duration-300' src={googleplay} alt="" /></a>
+                        <a target='_blank' href="https://t.me/aZennetwork1_bot"><img className='hover:opacity-80 duration-300' src={miniapp} alt="" /></a>
                     </div>
                 </div>
             </div>

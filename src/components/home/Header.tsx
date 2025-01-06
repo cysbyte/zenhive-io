@@ -15,16 +15,16 @@ const Header = () => {
       name: 'Products',
       link: '/product'
     },
-    {
-      id: 3,
-      name: 'Protocol',
-      link: '/protocol'
-    },
-    {
-      id: 4,
-      name: 'About',
-      link: '/about'
-    },
+    // {
+    //   id: 3,
+    //   name: 'Protocol',
+    //   link: '/protocol'
+    // },
+    // {
+    //   id: 4,
+    //   name: 'About',
+    //   link: '/about'
+    // },
   ]
 
   return (
@@ -45,10 +45,10 @@ const Header = () => {
             ))
           }
         </div>
-        <div className='flex-1 flex justify-end items-center gap-3'>
+        {/* <div className='flex-1 flex justify-end items-center gap-3'>
           <a className='bg-gradient-to-r from-[#C0EE02] to-[#90FF6B] text-black text-sm rounded-lg px-8 py-2 font-pingFangSCRegular font-semibold' href="">Login</a>
           <a className='text-white border-2 border-white text-sm rounded-lg px-5 py-2 font-pingFangSCRegular font-semibold' href="">Register</a>
-        </div>
+        </div> */}
       </header>
     </ContentContainer>
   )

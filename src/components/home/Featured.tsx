@@ -9,10 +9,10 @@ const Featured = () => {
     <section className='flex flex-col justify-center items-center gap-6 w-full mt-48'>
       <h2 className='font-pingFangSCRegular font-semibold text-[72px] leading-[72px] tracking-[0.4px] text-center text-white w-full'>Featured On</h2>
       <div className='w-[1264px] flex justify-between items-center mx-auto mt-10 mb-40'>
-        <img src={logo1} alt="" />
-        <img src={logo2} alt="" />
-        <img src={logo3} alt="" />
-        <img src={logo4} alt="" />
+        <a target='_blank' href="https://finance.yahoo.com/news/azen-protocol-launched-decentralised-marketplace-162000991.html"><img src={logo1} alt="" /></a>
+        <a target='_blank' href="https://www.benzinga.com/pressreleases/24/08/40231397/azen-protocol-launched-the-decentralised-marketplace-for-computing-resources"><img src={logo2} alt="" /></a>
+        <a target='_blank' href="https://apnews.com/press-release/accesswire/data-management-and-storage-fb700f746b19837d0e32c0e36ed68659"><img src={logo3} alt="" /></a>
+        <a target='_blank' href="https://markets.businessinsider.com/news/currencies/azen-protocol-launched-the-decentralised-marketplace-for-computing-resources-1033655124"><img src={logo4} alt="" /></a>
       </div>
     </section>
   )

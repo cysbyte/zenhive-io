@@ -8,8 +8,12 @@ import socialLink4 from '@/assets/home/footer/social-links/4.svg'
 const Footer = () => {
 
     const about = ['Our Story', 'Press & Blogs', 'Media Kit']
-    const products = ['aZen Hub', 'aZen DePIN Lite', 'ZenHive']
-    const downloads = ['aZen Hub for iOS', 'aZen Hub for Android', 'aZen DePIN Lite for Android']
+    const products = ['aZen Connect', 'aZen DePIN Lite', 'ZenHive']
+    const downloads = [
+        {id: 1, name: 'aZen Connect for iOS', link: 'https://apps.apple.com/us/app/azen-connect/id6476482774'},
+        {id: 2, name: 'aZen Connect for Android', link: 'https://play.google.com/store/apps/details?id=com.azen.manager'},
+        {id: 3, name: 'aZen DePIN Lite for Android', link: ''},
+    ]
 
     const socialLinks = [
         {
@@ -42,8 +46,8 @@ const Footer = () => {
                 <p className='font-pingFangSCLight font-normal text-sm text-[#999999] mt-4'>aZen Protocol is transforming computing resources into dynamic fractional NFTs, scheduled by smart contracts to build the future of DePIN for universal computing.</p>
             </div>
 
-            <div className='flex justify-center items-start gap-14'>
-                <div className='flex flex-col justify-center items-start gap-1'>
+            <div className='flex justify-center items-start gap-14 '>
+                <div className='flex-col justify-center items-start gap-1 hidden'>
                     <h6 className='font-pingFangSCLight font-normal text-sm text-white mb-4'>About</h6>
                     {
                         about.map((item, index)=>(
@@ -62,8 +66,8 @@ const Footer = () => {
                 <div className='flex flex-col justify-center items-start gap-1'>
                     <h6 className='font-pingFangSCLight font-normal text-sm text-white mb-4'>Downloads</h6>
                     {
-                        downloads.map((item, index)=>(
-                            <a className='font-pingFangSCLight font-normal text-[12px] leading-[30px] text-[#999999]' key={index} href="">{item}</a>
+                        downloads.map((item)=>(
+                            <a className='font-pingFangSCLight font-normal text-[12px] leading-[30px] text-[#999999]' target='_blank' key={item.id} href={item.link}>{item.name}</a>
                         ))
                     }
                 </div>

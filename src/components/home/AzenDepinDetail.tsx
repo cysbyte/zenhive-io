@@ -40,7 +40,7 @@ const AzenDepinDetail = () => {
                     }
                 </div>
                 <div className='flex justify-start items-center gap-3 mt-16 ml-[42rem] relative'>
-                    <img className='hover:opacity-80 duration-300' src={googleplay} alt="" />
+                    <a target='_blank' href="https://play.google.com/store/apps/details?id=com.azen.client"><img className='hover:opacity-80 duration-300' src={googleplay} alt="" /></a>
                 </div>
             </div>
         </div>

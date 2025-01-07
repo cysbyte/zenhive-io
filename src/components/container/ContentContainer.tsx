@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 
 const ContentContainer = ({children}: {children: ReactNode}) => {
     return (
-        <section className={`w-[1280px] mx-auto px-10 xl:px-0 bg-transparent`}>
+        <section className={`w-full xl:w-[1280px] mx-auto px-4 xl:px-0 bg-transparent`}>
           {children}
         </section>
       );

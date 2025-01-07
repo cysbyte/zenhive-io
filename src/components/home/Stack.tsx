@@ -22,13 +22,13 @@ const Content = () => {
     ]
     return (
         <ContentContainer>
-            <h2 className='font-inter text-[72px] leading-[76px] tracking-[0.4px] font-semibold text-white mt-[11rem] w-full text-center'>Stack Depiction</h2>
-            <div className='flex justify-between items-center h-[714px] gap-32 mt-[5rem]'>
+            <h2 className='font-inter text-[40px] leading-[60px] md:text-[72px] md:leading-[76px] tracking-[0.4px] font-medium md:font-semibold text-white mt-20 md:mt-[11rem] w-full text-center'>Stack Depiction</h2>
+            <div className='flex flex-col md:flex-row justify-between items-center h-auto md:h-[714px] gap-6 md:gap-32 mt-4 md:mt-[5rem]'>
                 <img src={application} alt="" />
-                <div className='w-[488px] flex flex-col justify-between h-full'>
+                <div className='w-full md:w-[488px] flex flex-col justify-between h-full gap-5 md:gap-0'>
                     {
                         applicationData.map((item) => (
-                            <div key={item.id} className='border border-[#ADABB240] rounded-lg px-6 py-[3.6rem]'>
+                            <div key={item.id} className='border border-[#ADABB240] rounded-lg px-6 py-[2.5rem] md:py-[3.6rem]'>
                                 <h3 className='font-pingFangSCRegular font-semibold text-2xl tracking-[0.4px] text-white'>{item.title}</h3>
                                 <p className='font-pingFangSCLight font-light text-base text-[#ADABB2A0] mt-4'>{item.desc}</p>
                             </div>

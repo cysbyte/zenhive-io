@@ -37,7 +37,7 @@ const AzenHub = () => {
                     </div>
                     <div className='flex justify-start items-center gap-3 mt-20 ml-10 z-50 relative'>
                         <a target='_blank' href="https://apps.apple.com/us/app/azen-connect/id6476482774"><img className='hover:opacity-80 duration-300' src={appstore} alt="" /></a>
-                        <a target='_blank' href="https://play.google.com/store/apps/details?id=com.azen.client"><img className='hover:opacity-80 duration-300' src={googleplay} alt="" /></a>
+                        <a target='_blank' href="https://play.google.com/store/apps/details?id=com.azen.manager"><img className='hover:opacity-80 duration-300' src={googleplay} alt="" /></a>
                         <a target='_blank' href="https://t.me/aZennetwork1_bot"><img className='hover:opacity-80 duration-300' src={miniapp} alt="" /></a>
                     </div>
                 </div>

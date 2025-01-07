@@ -2,6 +2,7 @@ import logo from '@/assets/home/header/logo.svg'
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import ContentContainer from '../container/ContentContainer'
+import menuIcon from '@/assets/home/header/menu-icon.svg'
 
 const Header = () => {
   const menus = [
@@ -29,11 +30,11 @@ const Header = () => {
 
   return (
     <ContentContainer>
-      <header className='relative z-50 flex justify-between items-center py-6'>
+      <header className='relative z-50 flex justify-between items-center py-8 md:py-6'>
         <div className='flex-1'>
           <Link to='/'><img src={logo} alt="" /></Link>
         </div>
-        <div className='flex-1 flex justify-center items-center gap-14'>
+        <div className='flex-1 hidden md:flex justify-center items-center gap-14'>
           {
             menus.map((item) => (
               <NavLink
@@ -45,6 +46,8 @@ const Header = () => {
             ))
           }
         </div>
+
+        <img className='block md:hidden z-10' src={menuIcon} alt="" />
         {/* <div className='flex-1 flex justify-end items-center gap-3'>
           <a className='bg-gradient-to-r from-[#C0EE02] to-[#90FF6B] text-black text-sm rounded-lg px-8 py-2 font-pingFangSCRegular font-semibold' href="">Login</a>
           <a className='text-white border-2 border-white text-sm rounded-lg px-5 py-2 font-pingFangSCRegular font-semibold' href="">Register</a>

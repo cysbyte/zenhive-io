@@ -12,7 +12,7 @@ const Footer = () => {
     const downloads = [
         {id: 1, name: 'aZen Connect for iOS', link: 'https://apps.apple.com/us/app/azen-connect/id6476482774'},
         {id: 2, name: 'aZen Connect for Android', link: 'https://play.google.com/store/apps/details?id=com.azen.manager'},
-        {id: 3, name: 'aZen DePIN Lite for Android', link: ''},
+        {id: 3, name: 'aZen DePIN Lite for Android', link: 'https://play.google.com/store/apps/details?id=com.azen.client&pli=1'},
     ]
 
     const socialLinks = [

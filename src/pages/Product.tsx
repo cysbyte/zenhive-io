@@ -11,7 +11,6 @@ import AzenDepin from '@/components/product/AzenDepin'
 import Earn2 from '@/components/product/Earn2'
 import ZenHive from '@/components/home/ZenHive'
 import Earn3 from '@/components/product/Earn3'
-import mobileHero from '@/assets/product/mobile/hero.svg'
 
 const Product = () => {
   return (
@@ -26,7 +25,6 @@ const Product = () => {
           <Hero />
           <div>
           <div className='block md:hidden'>
-          <img src={mobileHero} alt="" />
         </div>
           </div>
         </div>

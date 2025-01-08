@@ -27,8 +27,8 @@ const Earn1 = () => {
     ]
   return (
     <ContentContainer>
-        <h2 className='font-pingFangSCRegular font-semibold text-[72px] leading-[100px] text-white mt-40 w-full text-center'>Earn $aZen tokens with aZen Hub</h2>
-        <div className='flex justify-between items-center mt-20 gap-14'>
+        <h2 className='font-pingFangSCRegular font-semibold text-[40px] leading-[60px] md:text-[72px] md:leading-[100px] text-white mt-16 md:mt-40 w-full text-center'>Earn $aZen tokens with aZen Hub</h2>
+        <div className='flex flex-col md:flex-row justify-between items-center mt-10 md:mt-20 gap-5 md:gap-14'>
             {
                 data.map((item)=>(
                     <div key={item.id} className='border border-[#454645] rounded-2xl p-8 flex-1'>

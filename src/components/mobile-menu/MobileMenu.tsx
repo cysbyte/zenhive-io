@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import logo from '@/assets/mobile-menu/logo.svg'
-import close from '@/assets/mobile-menu/close.svg'
+import logo from '@/assets/home/mobile-menu/logo.svg'
+import close from '@/assets/home/mobile-menu/close.svg'
 
 interface MenuMobileProps {
     onClose: () => void;
@@ -17,7 +17,7 @@ const MobileMenu = (props: MenuMobileProps) => {
         },
         {
             id: 2,
-            name: 'Product',
+            name: 'Products',
             link: '/product',
         },
     ]

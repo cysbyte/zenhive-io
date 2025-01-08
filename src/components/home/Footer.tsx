@@ -81,8 +81,8 @@ const Footer = () => {
             </div>
         </div>
         <div className='flex flex-col md:flex-row justify-between items-start md:items-center w-full md:w-[1280px] px-6 gap-4 md:gap-0 md:px-10 xl:px-0 mx-auto py-8 border-t-[0.5px] border-t-[#717171] mt-16'>
-            <p className='font-pingFangSCLight font-normal text-sm text-[#999999]'>© 2024 aZen Protocol. All Rights Reserved.</p>
-            <a className='font-pingFangSCLight font-normal text-sm text-[#999999]' href="">Terms of Use |  Privacy Policy</a>
+            <p className='font-pingFangSCLight font-normal text-sm text-white md:text-[#999999]'>© 2024 aZen Protocol. All Rights Reserved.</p>
+            <a className='font-pingFangSCLight font-normal text-sm text-white md:text-[#999999]' href="">Terms of Use |  Privacy Policy</a>
         </div>
     </section>
   )

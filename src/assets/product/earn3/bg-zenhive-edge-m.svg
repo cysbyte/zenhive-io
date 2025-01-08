@@ -1,0 +1,2 @@
+        <img className='block md:hidden absolute left-0 bottom-0 object-cover w-[358px] h-[320px]' src={bgm1} alt="" />
+        <img className='block md:hidden absolute left-0 top-0 w-full h-full' src={bgm2} alt="" />

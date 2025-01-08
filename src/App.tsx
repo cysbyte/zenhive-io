@@ -4,10 +4,12 @@ import Home from './pages/Home';
 import PageNotFound from './pages/PageNotFound';
 import Product from './pages/Product';
 import ZenHive from './pages/ZenHive';
+import { DialogProvider } from './providers/DialogProvider';
 
 function App() {
 
   return (
+    <DialogProvider>
     <Router>
       <Suspense fallback={<div className='w-screen h-screen bg-black text-white flex items-center justify-center'></div>}>
         <Routes>
@@ -18,6 +20,7 @@ function App() {
         </Routes>
       </Suspense>
     </Router>
+    </DialogProvider>
   )
 }
 

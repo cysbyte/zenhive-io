@@ -14,7 +14,7 @@ const Hero = () => {
           <a target='_blank' href="https://apps.apple.com/us/app/azen-connect/id6476482774"><img className='hover:opacity-80 duration-300' src={appstore} alt="" /></a>
           <a target='_blank' href="https://play.google.com/store/apps/details?id=com.azen.manager"><img className='hover:opacity-80 duration-300' src={googleplay} alt="" /></a>
         </div>
-        <div className='flex flex-col md:hidden justify-start items-center gap-4 mt-14'>
+        <div className='flex flex-col md:hidden justify-start items-center gap-6 mt-14'>
           <a target='_blank' href="https://apps.apple.com/us/app/azen-connect/id6476482774"><img className='hover:opacity-80 duration-300' src={appstoreMobile} alt="" /></a>
           <a target='_blank' href="https://play.google.com/store/apps/details?id=com.azen.manager"><img className='hover:opacity-80 duration-300' src={googleplayMobile} alt="" /></a>
         </div>

@@ -90,3 +90,9 @@
     left: -180px
   }
 }
+
+dialog:modal {
+  max-width: 100vw;
+  max-height: 100vh;
+  background-color: #0F1110;
+}

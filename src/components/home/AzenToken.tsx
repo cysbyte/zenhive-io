@@ -4,6 +4,7 @@ import azenToken from '@/assets/home/content/azen-token.svg'
 import icon1 from '@/assets/home/content/azen-token-icons/1.svg'
 import icon2 from '@/assets/home/content/azen-token-icons/2.svg'
 import icon3 from '@/assets/home/content/azen-token-icons/3.svg'
+import azenTokenM from '@/assets/home/content/bg-azen-token-m.svg'
 
 const AzenToken = () => {
 
@@ -30,16 +31,20 @@ const AzenToken = () => {
 
     return (
         <ContentContainer>
-            <div className='flex justify-between items-center mt-40 mr-20'>
+            <div className='hidden md:flex justify-between items-center mt-40 mr-20'>
                 <h2 className='font-inter font-semibold text-[72px] leading-[72px] tracking-[0.4px] text-white mt-28'>$aZen Token</h2>
                 <img src={azenToken} alt="" />
             </div>
-            <div className='flex justify-between items-center px-16 py-8 border border-[#FFFFFF3D] rounded-xl pb-16'>
+            <div className='md:hidden mx-auto mt-20 flex flex-col justify-center items-center'>
+                <img src={azenTokenM} alt="" />
+                <h3 className='text-3xl font-inter text-white -mt-8'>$aZen Token</h3>
+            </div>
+            <div className='flex flex-col md:flex-row justify-between items-center gap-10 md:gap-0 mt-4 md:mt-0 px-6 md:px-16 py-4 md:py-8 border border-[#FFFFFF3D] rounded-xl pb-16'>
                 {
-                    data.map((item)=>(
-                        <div key={item.id} className='w-[240px]'>
+                    data.map((item) => (
+                        <div key={item.id} className='w-full md:w-[240px]'>
                             <img src={item.icon} alt="" />
-                            <h5 className='font-pingFangSCRegular text-white font-semibold text-base my-6'>{item.title}</h5>
+                            <h5 className='font-pingFangSCRegular text-white font-semibold text-base my-5 md:my-6'>{item.title}</h5>
                             <p className='font-pingFangSCLight text-sm font-normal text-[#ADABB2]'>{item.desc}</p>
                         </div>
                     ))

@@ -30,11 +30,11 @@ const Header = () => {
 
   return (
     <ContentContainer>
-      <header className='relative z-50 flex justify-between items-center py-8 md:py-6'>
+      <header className='relative z-50 flex justify-between items-center py-8 md:py-7'>
         <div className='flex-1'>
           <Link to='/'><img src={logo} alt="" /></Link>
         </div>
-        <div className='flex-1 hidden md:flex justify-center items-center gap-14'>
+        <div className='flex-1 hidden md:flex justify-end items-center gap-14'>
           {
             menus.map((item) => (
               <NavLink

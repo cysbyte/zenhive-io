@@ -39,15 +39,15 @@ const Footer = () => {
     ]
 
   return (
-    <section className=' bg-[#151516] pt-12 pb-60'>
-        <div className='flex justify-between items-center w-[1280px] mx-auto px-10 xl:px-0'>
-            <div className='w-[430px]'>
+    <section className=' bg-[#151516] pt-6 md:pt-12 pb-10 md:pb-60'>
+        <div className='flex flex-col md:flex-row justify-between items-start md:items-center w-full md:w-[1280px] mx-auto px-6 md:px-10 xl:px-0'>
+            <div className='w-full md:w-[430px]'>
                 <img src={logo} alt="" />
-                <p className='font-pingFangSCLight font-normal text-sm text-[#999999] mt-4'>aZen Protocol is transforming computing resources into dynamic fractional NFTs, scheduled by smart contracts to build the future of DePIN for universal computing.</p>
+                <p className='font-pingFangSCLight font-normal text-sm text-white md:text-[#999999] mt-4 tracking-wide'>aZen Protocol is transforming computing resources into dynamic fractional NFTs, scheduled by smart contracts to build the future of DePIN for universal computing.</p>
             </div>
 
-            <div className='flex justify-center items-start gap-14 '>
-                <div className='flex-col justify-center items-start gap-1 hidden'>
+            <div className='flex md:flex-row flex-col justify-center items-start gap-10 md:gap-14 mt-10 md:mt-0'>
+                <div className='flex-col justify-start md:justify-center items-start gap-1 hidden'>
                     <h6 className='font-pingFangSCLight font-normal text-sm text-white mb-4'>About</h6>
                     {
                         about.map((item, index)=>(
@@ -55,7 +55,7 @@ const Footer = () => {
                         ))
                     }
                 </div>
-                <div className='flex flex-col justify-center items-start gap-1'>
+                <div className='flex flex-col justify-start md:justify-center items-start gap-1'>
                     <h6 className='font-pingFangSCLight font-normal text-sm text-white mb-4'>Products</h6>
                     {
                         products.map((item, index)=>(
@@ -80,7 +80,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='flex justify-between items-center w-[1280px] px-10 xl:px-0 mx-auto py-8 border-t-[0.5px] border-t-[#717171] mt-16'>
+        <div className='flex flex-col md:flex-row justify-between items-start md:items-center w-full md:w-[1280px] px-6 gap-4 md:gap-0 md:px-10 xl:px-0 mx-auto py-8 border-t-[0.5px] border-t-[#717171] mt-16'>
             <p className='font-pingFangSCLight font-normal text-sm text-[#999999]'>© 2024 aZen Protocol. All Rights Reserved.</p>
             <a className='font-pingFangSCLight font-normal text-sm text-[#999999]' href="">Terms of Use |  Privacy Policy</a>
         </div>

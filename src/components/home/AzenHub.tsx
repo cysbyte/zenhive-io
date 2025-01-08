@@ -1,13 +1,12 @@
-import React from 'react'
-import ContentContainer from '../container/ContentContainer'
-import bgAzenHub from '@/assets/home/content/bg-azen-hub.svg'
-import bgAzenHubM from '@/assets/home/content/azen-hub/bg-m.svg'
-import appstore from '@/assets/home/hero/bg-appstore.svg'
-import googleplay from '@/assets/home/hero/bg-googleplay.svg'
-import miniapp from '@/assets/home/hero/bg-miniapp.svg'
 import appstorem from '@/assets/home/content/azen-hub/appstore-m.svg'
 import googleplaym from '@/assets/home/content/azen-hub/googleplay-m.svg'
 import miniappm from '@/assets/home/content/azen-hub/miniapp-m.svg'
+import bgAzenHub from '@/assets/home/content/bg-azen-hub.svg'
+import appstore from '@/assets/home/hero/bg-appstore.svg'
+import googleplay from '@/assets/home/hero/bg-googleplay.svg'
+import miniapp from '@/assets/home/hero/bg-miniapp.svg'
+import React from 'react'
+import ContentContainer from '../container/ContentContainer'
 
 const AzenHub = () => {
     const data = [

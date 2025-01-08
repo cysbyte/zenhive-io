@@ -31,7 +31,7 @@ const AzenDepinDetail = () => {
     return (
         <div className='w-full h-[832px] md:h-[616px] relative rounded-2xl overflow-hidden border border-[#3D3E3D]'>
             <img className='hidden md:block absolute top-0 right-0 w-full h-full' src={bg} alt="" />
-            <img className='block md:hidden absolute top-0 right-0 w-full h-full' src={bgm} alt="" />
+            <img className='block md:hidden absolute top-0 right-0 object-cover w-full h-full' src={bgm} alt="" />
 
                 <div className='relative z-10 w-full md:w-[553px] flex flex-col gap-5 md:grid grid-cols-2 grid-rows-2 md:gap-x-0 md:gap-y-8 mt-8 md:mt-44 ml-6 md:ml-[38rem] xl:ml-[42rem]'>
                     {

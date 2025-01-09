@@ -12,11 +12,21 @@ import layer1Logo3 from '@/assets/home/content/partners/layer1/3.svg'
 import layer1Logo4 from '@/assets/home/content/partners/layer1/4.svg'
 import layer1Logo5 from '@/assets/home/content/partners/layer1/5.svg'
 
-import backerLogo1 from '@/assets/home/content/partners/ backers/1.svg'
-import backerLogo2 from '@/assets/home/content/partners/ backers/2.svg'
-import backerLogo3 from '@/assets/home/content/partners/ backers/3.svg'
-import backerLogo4 from '@/assets/home/content/partners/ backers/4.svg'
-import backerLogo5 from '@/assets/home/content/partners/ backers/5.svg'
+import backerLogo1 from '@/assets/home/content/partners/backers/1.svg'
+import backerLogo2 from '@/assets/home/content/partners/backers/2.svg'
+import backerLogo3 from '@/assets/home/content/partners/backers/3.svg'
+import backerLogo4 from '@/assets/home/content/partners/backers/4.svg'
+import backerLogo5 from '@/assets/home/content/partners/backers/5.svg'
+import backerLogo6 from '@/assets/home/content/partners/backers/6.svg'
+import backerLogo7 from '@/assets/home/content/partners/backers/7.svg'
+import backerLogo8 from '@/assets/home/content/partners/backers/8.svg'
+import backerLogo9 from '@/assets/home/content/partners/backers/9.svg'
+import backerLogo10 from '@/assets/home/content/partners/backers/10.svg'
+import backerLogo11 from '@/assets/home/content/partners/backers/11.svg'
+import backerLogo12 from '@/assets/home/content/partners/backers/12.svg'
+import backerLogo13 from '@/assets/home/content/partners/backers/13.svg'
+import backerLogo14 from '@/assets/home/content/partners/backers/14.svg'
+import backerLogo15 from '@/assets/home/content/partners/backers/15.svg'
 
 const Parteners = () => {
     return (
@@ -53,12 +63,22 @@ const Parteners = () => {
             <div className='w-full mt-20'>
                 <h5 className='font-pingFangSCLight font-normal text-2xl tracking-wide text-white w-full text-center'>Backers & Investment Partners </h5>
                 <p className='font-pingFangSCLight font-normal text-base w-full text-center text-[#999999] mt-2'>Over $70Million in Equity and Token Investment</p>
-                <div className='w-full md:w-[1204px] flex justify-between items-center  md:gap-16 mx-auto mt-10'>
+                <div className='w-full md:w-[1204px] flex flex-wrap justify-center items-center  md:gap-16 mx-auto mt-10'>
                     <img className='h-[20px] md:h-auto' src={backerLogo1} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo2} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo3} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo4} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo5} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo6} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo7} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo8} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo9} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo10} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo11} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo12} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo13} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo14} alt="" />
+                    <img className='h-[20px] md:h-auto' src={backerLogo15} alt="" />
                 </div>
             </div>
         </section>

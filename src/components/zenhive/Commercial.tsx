@@ -43,7 +43,7 @@ const Commercial = () => {
                         <p className='z-10 font-pingFangSCLight text-[#ADABB2] text-xl'>{item.desc1}</p>
                         <p className='z-10 font-pingFangSCLight text-[#ADABB2] text-xl'>{item.desc2}</p>
                     </div>
-                    <div className='w-full border border-[#454645] bg-gradient-to-br from-[#373C27] to-[#21251F] rounded-xl p-4'>
+                    <div className='block md:hidden w-full border border-[#454645] bg-gradient-to-br from-[#373C27] to-[#21251F] rounded-xl p-4'>
                         <div className='flex justify-start items-center gap-6 mb-4'>
                             <img className='w-[60px]'  src={item.icon} alt="" />
                             <h5 className='font-pingFangSCRegular text-2xl text-white'>{item.title}</h5>

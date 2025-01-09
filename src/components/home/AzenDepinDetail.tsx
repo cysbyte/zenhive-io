@@ -29,7 +29,7 @@ const AzenDepinDetail = () => {
         },
     ]
     return (
-        <div className='w-full h-[832px] md:h-[616px] relative rounded-2xl overflow-hidden border border-[#3D3E3D]'>
+        <div id='azen-depin-lite' className='w-full h-[832px] md:h-[616px] relative rounded-2xl overflow-hidden border border-[#3D3E3D]'>
             <img className='hidden md:block absolute top-0 right-0 w-full h-full' src={bg} alt="" />
             <img className='block md:hidden absolute top-0 right-0 object-cover w-full h-full' src={bgm} alt="" />
 

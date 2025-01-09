@@ -22,7 +22,7 @@ const Hero = () => {
   ]
   return (
     <ContentContainer>
-      <article className='w-full md:w-[560px] relative pt-0 md:pt-[10rem] pb-0 md:pb-[7rem] z-50'>
+      <article id='azen-hub' className='w-full md:w-[560px] relative pt-0 md:pt-[10rem] pb-0 md:pb-[7rem] z-50'>
         <h1 className='font-poppins text-[48px] leading-[58px] md:text-[58px] md:leading-[78px] font-normal text-white'>aZen Hub</h1>
         <p className='hidden md:block font-pingFangSCLight font-normal text-xl text-[#ADABB2] mt-2'>aZen Hub is the gateway to your DePIN experience. Integrated with the aZen DePIN protocol, users receive $aZen rewards as Proof of Contribution for sharing computing resources.</p>
         <p className='block md:hidden font-pingFangSCLight font-normal text-xl text-[#ADABB2] mt-2'>aZen Hub is the gateway to your DePIN experience. <br/>Integrated with the aZen DePIN protocol, users receive $aZen rewards as Proof of Contribution for sharing computing resources.</p>

@@ -24,8 +24,18 @@ const ZenHiveMenu = (props: MenuMobileProps) => {
     const dialogRef = useRef<null | HTMLDialogElement>(null);
 
     useEffect(() => {
-        dialogRef.current?.showModal();
-    }, []);
+        const dialog = dialogRef.current;
+    
+        // Prevent auto-focus
+        const handleFocus = (e: FocusEvent) => e.preventDefault();
+        dialog?.addEventListener('focus', handleFocus);
+    
+        dialog?.showModal();
+    
+        return () => {
+          dialog?.removeEventListener('focus', handleFocus);
+        };
+      }, []);
 
     const closeDialog = () => {
         dialogRef.current?.close();
@@ -41,7 +51,7 @@ const ZenHiveMenu = (props: MenuMobileProps) => {
         <div className='px-14 flex flex-col gap-10 justify-start items-start'>
             {
                 items.map((item)=>(
-                    <a className='text-sm text-white cursor-pointer' key={item.id} href={item.link}>{item.name}</a>
+                    <a tabIndex={-1} aria-hidden="true" className='text-sm text-white cursor-pointer' key={item.id} href={item.link}>{item.name}</a>
                 ))
             }
         </div>

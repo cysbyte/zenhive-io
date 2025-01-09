@@ -1,10 +1,9 @@
-import React from 'react'
-import ContentContainer from '../container/ContentContainer'
 import logo1 from '@/assets/zenhive/join/logo1.svg'
 import logo2 from '@/assets/zenhive/join/logo2.svg'
-import separator from '@/assets/zenhive/join/separator.svg'
-import PrimeHost from '../product/PrimeHost'
+import React from 'react'
+import ContentContainer from '../container/ContentContainer'
 import Nano from '../product/Nano'
+import PrimeHost from '../product/PrimeHost'
 import ZenHiveEdge from '../product/ZenHiveEdge'
 
 const Join = () => {

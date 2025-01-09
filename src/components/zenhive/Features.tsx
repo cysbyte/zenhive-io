@@ -4,6 +4,7 @@ import icon2 from '@/assets/zenhive/features/icon2.svg'
 import icon3 from '@/assets/zenhive/features/icon3.svg'
 import ContentContainer from '../container/ContentContainer'
 import border from '@/assets/zenhive/features/border.svg'
+import borderm from '@/assets/zenhive/features/border-m.svg'
 
 const Features = () => {
     const data = [
@@ -71,15 +72,15 @@ const Features = () => {
     ]
     return (
         <ContentContainer>
-            <h2 className='font-pingFangSCRegular font-semibold text-[72px] leading-[100px] text-white w-full text-center mt-40'>ZenHive Features</h2>
+            <h2 className='font-pingFangSCRegular font-semibold text-3xl md:text-[72px] md:leading-[100px] text-white w-full text-center mt-20 md:mt-40'>ZenHive Features</h2>
             {
                 data.map((feature) => (
-                    <div key={feature.id} className='flex justify-between items-start py-20 relative'>
-                        <div className='flex justify-start items-center flex-1 gap-6'>
+                    <div key={feature.id} className='flex flex-col md:flex-row justify-between items-start py-6 md:py-20 relative'>
+                        <div className='flex flex-col md:flex-row justify-start items-start md:items-center flex-1 gap-6'>
                             <img src={feature.icon} alt="" />
-                            <h3 className='font-pingFangSCRegular text-3xl font-semibold text-[#C0EE02] w-[330px]'>{feature.title}</h3>
+                            <h3 className='font-pingFangSCRegular text-2xl md:text-3xl font-semibold text-[#C0EE02] w-full md:w-[330px]'>{feature.title}</h3>
                         </div>
-                        <div className='flex flex-col justify-start items-start gap-4 flex-1'>
+                        <div className='flex flex-col justify-start items-start gap-4 flex-1 mt-4 md:mt-0'>
                             {
                                 feature.detail.map((item) => (
                                     <div key={item.id}>
@@ -89,7 +90,8 @@ const Features = () => {
                                 ))
                             }
                         </div>
-                        {feature.id < 3 && <img className='absolute left-0 bottom-0' src={border} alt="" />}
+                        {feature.id < 3 && <img className='hidden md:block absolute left-0 bottom-0' src={border} alt="" />}
+                        {feature.id < 3 && <img className='block md:hidden absolute left-0 bottom-0' src={borderm} alt="" />}
                     </div>
                 ))
             }

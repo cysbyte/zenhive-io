@@ -37,13 +37,13 @@ const Footer = () => {
     ]
 
     return (
-        <section className='w-full bg-[#151516] py-16'>
-            <div className='flex items-end justify-between pb-14 w-[1280px] xl:px-0 px-10 mx-auto border-b border-b-[#71717180]'>
+        <section className='w-full bg-[#151516] py-10 md:py-16'>
+            <div className='flex flex-col md:flex-row items-start gap-8 md:gap-0 md:items-end justify-between pb-4 md:pb-14 w-full md:w-[1280px] xl:px-0 px-5 md:px-10 mx-auto border-b border-b-[#71717180]'>
                 <div>
                     <h6 className='font-pingFangSCLight text-sm text-white mb-4'>Powered by</h6>
                     <img src={logo} alt="" />
                 </div>
-                <div className='flex justify-center items-center gap-3'>
+                <div className='flex justify-center items-center gap-3 mt-2 md:mt-0'>
                     {
                         socialLinks.map((item) => (
                             <a target='_blank' key={item.id} href={item.link}><img src={item.icon} alt="" /></a>
@@ -51,7 +51,7 @@ const Footer = () => {
                     }
                 </div>
             </div>
-            <div className='flex justify-between items-center w-[1280px] xl:px-0 px-10 mx-auto py-8 mb-8'>
+            <div className='flex flex-col gap-6 md:gap-0 md:flex-row justify-between items-start md:items-center w-full md:w-[1280px] xl:px-0 px-5 md:px-10 mx-auto py-8 mb-8'>
                 <p className='font-pingFangSCLight text-white text-sm'>© 2024 aZen Protocol</p>
                 <a className='font-pingFangSCLight text-white text-sm' href="">White Paper |  Privacy Policy</a>
             </div>

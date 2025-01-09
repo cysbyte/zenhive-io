@@ -40,6 +40,13 @@
   margin: auto;
 }
 
+.logo-animation-md {
+  display: inline-flex;
+  animation: scrollLeftMD 15s linear infinite;
+  height: 50px;
+  margin: auto;
+}
+
 .delay1 {
   animation-delay: calc(15s / 9 * (9 - 1) * -1);
 }
@@ -88,6 +95,16 @@
   }
   100% {
     left: -180px
+  }
+}
+
+@keyframes scrollLeftMD {
+  0% {
+    left: 480%; 
+
+  }
+  100% {
+    left: -430px
   }
 }
 

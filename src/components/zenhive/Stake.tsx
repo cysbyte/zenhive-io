@@ -10,8 +10,8 @@ import logo6 from '@/assets/zenhive/stake/logo6.svg'
 const Stake = () => {
   return (
     <ContentContainer>
-         <h2 className='font-pingFangSCRegular font-semibold text-[72px] leading-[100px] text-white w-full text-center'>Stake-to-Own with <br/>Web3 Strategic Partners</h2>
-         <p className='font-pingFangSCLight text-xl text-[#ADABB2] w-full text-center mt-6'>Stake industry-leading tokens to earn ZenHive, retaining your original tokens while gaining a valuable new asset. </p>
+         <h2 className='font-pingFangSCRegular font-semibold text-3xl md:text-[72px] md:leading-[100px] text-white w-full text-center'>Stake-to-Own with <br/>Web3 Strategic Partners</h2>
+         <p className='font-pingFangSCLight text-base md:text-xl text-[#ADABB2] w-full text-center mt-6'>Stake industry-leading tokens to earn ZenHive, retaining your original tokens while gaining a valuable new asset. </p>
          <div className='flex justify-between items-center mt-16'>
             <img src={logo1} alt="" />
             <img src={logo2} alt="" />

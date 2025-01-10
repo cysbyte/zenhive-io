@@ -40,7 +40,7 @@ const Nano = () => {
               }
             </div>
         <h2 className='font-pingFangSCRegular font-semibold text-3xl md:text-[40px] md:leading-[60px] text-white mt-24 md:mt-10'>29.95 USDT</h2>
-        <BuyButton/>
+        <BuyButton showDialog={false}/>
       </div>
     </div>
   )

@@ -11,22 +11,22 @@ const Gaming = () => {
         {
             id: 1,
             title: 'Virtual Gaming Machine',
-            desc1: '"Play instantly, no downloads needed"',
-            desc2: '"Stream games seamlessly via Virtual Machines"',
+            desc1: 'Play instantly, no downloads needed',
+            desc2: 'Stream games seamlessly via Virtual Machines',
             icon: icon1,
         },
         {
             id: 2,
             title: 'Network Acceleration',
-            desc1: '"Decentralized, location-based optimization"',
-            desc2: '"Faster, smoother gaming experience"',
+            desc1: 'Decentralized, location-based optimization',
+            desc2: 'Faster, smoother gaming experience',
             icon: icon2,
         },
         {
             id: 3,
             title: 'Data Insights',
-            desc1: '"Analyze player behavior"',
-            desc2: '"Enhance game design and boost revenue"',
+            desc1: 'Analyze player behavior',
+            desc2: 'Enhance game design and boost revenue',
             icon: icon3,
         },
     ]

@@ -49,7 +49,7 @@ const PrimeHost = () => {
               }
             </div>
             <h2 className='font-pingFangSCRegular font-semibold text-3xl md:text-[40px] md:leading-[60px] text-white mt-10'>999.95 USDT</h2>
-            <BuyButton/>
+            <BuyButton showDialog={false}/>
         </div>
     </div>
   )

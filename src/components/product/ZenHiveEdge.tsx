@@ -4,6 +4,7 @@ import bg2 from '@/assets/product/earn3/bg-zenhive-edge2.svg'
 import bgm from '@/assets/product/earn3/bg-zenhive-edge-m.png'
 import left from '@/assets/product/earn3/left.svg'
 import right from '@/assets/product/earn3/right.svg'
+import BuyButton from '../zenhive/BuyButton'
 
 const ZenHiveEdge = () => {
     return (
@@ -18,7 +19,7 @@ const ZenHiveEdge = () => {
                 <li className='list-disc text-sm leading-[20px] text-[#ADABB2] font-pingFangSCLight mt-2 md:mt-4 tracking-wider'><span className='w-[5px] h-[5px] bg-[#ADABB2]'></span>Start Mining: Activate and begin earning rewards through the Proof of Contribution (PoC) mechanism.</li>
 
                 <h2 className='font-pingFangSCRegular font-semibold text-3xl md:text-[40px] md:leading-[60px] text-white mt-28 md:mt-10'>999.95 USDT</h2>
-                <button className='hidden md:block bg-gradient-to-r from-[#C0EE02] to-[#C0EE02] rounded-xl py-3 md:py-3.5 px-[4.5rem] md:px-20 mt-4 font-pingFangSCRegular font-bold text-black text-xl'>Buy Now</button>
+                <BuyButton showDialog={true}/>
             </div>
             <img className='hidden md:block absolute bottom-[270px] left-[90px] z-50' src={left} alt="" />
             <img className='hidden md:block absolute bottom-[270px] right-[90px] z-50' src={right} alt="" />

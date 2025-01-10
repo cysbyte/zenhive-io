@@ -15,10 +15,13 @@ import { useDialogContext } from '@/providers/DialogProvider'
 import MobileMenu from '@/components/mobile-menu/MobileMenu'
 import bgm from '@/assets/product/hero/bg-hero-m.svg'
 import bgm2 from '@/assets/product/hero/bg-hero-m2.png'
+import GetInTouchDialog from '@/components/zenhive/GetInTouchDialog'
 
 const Product = () => {
 
   const { showMenu, setShowMenu } = useDialogContext()
+  const { showGetInTouchDialog, setShowGetInTouchDialog } = useDialogContext()
+
 
   return (
     <main className='overflow-x-hidden bg-black h-screen'>
@@ -28,8 +31,8 @@ const Product = () => {
           <img className='hidden md:block absolute -left-0 -top-20 w-[2220px] h-[1420px] z-20 -ml-0' src={bg2} alt="" />
           <img className='hidden md:block absolute -left-[700px] top-0 z-20 -ml-10' src={ellipse} alt="" />
           <img className='hidden md:block absolute top-0 left-[25%]  z-20' src={bg1} alt="" />
-          <img className='block md:hidden absolute top-0 left-0 z-20' src={bgm} alt="" /> 
-          <img className='block md:hidden absolute -bottom-10 left-0 z-20' src={bgm2} alt="" /> 
+          <img className='block md:hidden absolute top-0 left-0 z-20' src={bgm} alt="" />
+          <img className='block md:hidden absolute -bottom-10 left-0 z-20' src={bgm2} alt="" />
           <Header />
           <Hero />
 
@@ -48,6 +51,16 @@ const Product = () => {
             <MobileMenu
               onClose={() => setShowMenu(false)}
               onOk={() => setShowMenu(false)}
+            />
+          </Suspense>
+        }
+
+        {
+          showGetInTouchDialog &&
+          <Suspense fallback={<div>Loading...</div>}>
+            <GetInTouchDialog
+              onClose={() => setShowGetInTouchDialog(false)}
+              onOk={() => setShowGetInTouchDialog(false)}
             />
           </Suspense>
         }

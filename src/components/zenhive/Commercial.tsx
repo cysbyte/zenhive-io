@@ -9,22 +9,22 @@ const Commercial = () => {
         {
             id: 1,
             title: 'Data Collection',
-            desc1: '"Gather user interactions"',
-            desc2: '"Track clicks and behaviors"',
+            desc1: 'Gather user interactions',
+            desc2: 'Track clicks and behaviors',
             icon: icon1,
         },
         {
             id: 2,
             title: 'AI Analysis',
-            desc1: '"Uncover patterns and trends"',
-            desc2: '"Generate actionable insights"',
+            desc1: 'Uncover patterns and trends',
+            desc2: 'Generate actionable insights',
             icon: icon2,
         },
         {
             id: 3,
             title: 'Content Delivery',
-            desc1: '"Target the right audience"',
-            desc2: '"Deliver personalized experiences"',
+            desc1: 'Target the right audience',
+            desc2: 'Deliver personalized experiences',
             icon: icon3,
         },
     ]

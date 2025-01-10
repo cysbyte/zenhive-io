@@ -1,9 +1,8 @@
-import React, { useEffect, useRef } from 'react'
 import close from '@/assets/home/mobile-menu/close.svg'
+import bg from '@/assets/zenhive/get-in-touch/bg.svg'
 import icon1 from '@/assets/zenhive/get-in-touch/icon1.svg'
 import icon2 from '@/assets/zenhive/get-in-touch/icon2.svg'
-import line from '@/assets/zenhive/get-in-touch/line.svg'
-import bg from '@/assets/zenhive/get-in-touch/bg.svg'
+import React, { useEffect, useRef } from 'react'
 
 interface GetInTouchDialogProps {
     onClose: () => void;

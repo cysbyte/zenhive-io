@@ -18,11 +18,12 @@ import Peer from '@/components/zenhive/Peer'
 import Trusted from '@/components/zenhive/Trusted'
 import { useDialogContext } from '@/providers/DialogProvider'
 import ZenHiveMenu from '@/components/mobile-menu/ZenHiveMenu'
+import GetInTouchDialog from '@/components/zenhive/GetInTouchDialog'
 
 const ZenHive = () => {
 
-  const {showZenHiveMenu, setShowZenHiveMenu} = useDialogContext()
-  
+  const { showZenHiveMenu, setShowZenHiveMenu, showGetInTouchDialog, setShowGetInTouchDialog } = useDialogContext()
+
   return (
     <main className='overflow-x-hidden bg-black h-screen'>
       <Container>
@@ -36,25 +37,34 @@ const ZenHive = () => {
           <Hero />
         </div>
         <div className='w-full relative bg-[#0F1110]'>
-            <Mining/>
-            <Join/>
-            <Stake/>
-            <Features/>
-            <Commercial/>
-            <Gaming/>
-            <Peer/>
-            <Trusted/>
+          <Mining />
+          <Join />
+          <Stake />
+          <Features />
+          <Commercial />
+          <Gaming />
+          <Peer />
+          <Trusted />
         </div>
         <Footer />
         {
-        showZenHiveMenu &&
-        <Suspense fallback={<div>Loading...</div>}>
-          <ZenHiveMenu
-            onClose={() => setShowZenHiveMenu(false)}
-            onOk={() => setShowZenHiveMenu(false)}
-          />
-        </Suspense>
-      }
+          showZenHiveMenu &&
+          <Suspense fallback={<div>Loading...</div>}>
+            <ZenHiveMenu
+              onClose={() => setShowZenHiveMenu(false)}
+              onOk={() => setShowZenHiveMenu(false)}
+            />
+          </Suspense>
+        }
+        {
+          showGetInTouchDialog &&
+          <Suspense fallback={<div>Loading...</div>}>
+            <GetInTouchDialog
+              onClose={() => setShowGetInTouchDialog(false)}
+              onOk={() => setShowGetInTouchDialog(false)}
+            />
+          </Suspense>
+        }
       </Container>
     </main>
   )

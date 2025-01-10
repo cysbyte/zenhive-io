@@ -3,6 +3,7 @@ import bg1 from '@/assets/product/earn3/bg-nano1.png'
 import bg2 from '@/assets/product/earn3/bg-nano2.svg'
 import bgm1 from '@/assets/product/earn3/bg-nano-m1.png'
 import bgm2 from '@/assets/product/earn3/bg-nano-m2.svg'
+import BuyButton from '../zenhive/BuyButton'
 
 const Nano = () => {
 
@@ -39,7 +40,7 @@ const Nano = () => {
               }
             </div>
         <h2 className='font-pingFangSCRegular font-semibold text-3xl md:text-[40px] md:leading-[60px] text-white mt-24 md:mt-10'>29.95 USDT</h2>
-        <button className='hidden md:block bg-gradient-to-r from-[#C0EE02] to-[#C0EE02] rounded-xl py-4 md:py-3.5 px-[4.5rem] md:px-20 mt-4 font-pingFangSCRegular font-bold text-black text-xl'>Buy Now</button>
+        <BuyButton/>
       </div>
     </div>
   )

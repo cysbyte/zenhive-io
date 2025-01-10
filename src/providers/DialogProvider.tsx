@@ -6,6 +6,8 @@ interface DialogContextType {
     setShowMenu: React.Dispatch<React.SetStateAction<boolean>>;
     showZenHiveMenu: boolean,
     setShowZenHiveMenu: React.Dispatch<React.SetStateAction<boolean>>;
+    showGetInTouchDialog: boolean,
+    setShowGetInTouchDialog: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const defaultContext: DialogContextType = {
@@ -13,6 +15,8 @@ const defaultContext: DialogContextType = {
     setShowMenu: () => { },
     showZenHiveMenu: false,
     setShowZenHiveMenu: () => { },
+    showGetInTouchDialog: false,
+    setShowGetInTouchDialog: ()=> {},
 };
 
 const DialogContext = createContext<DialogContextType>(defaultContext);
@@ -21,6 +25,7 @@ export const DialogProvider: React.FC<{ children: ReactNode }> = ({ children }) 
 
     const [showMenu, setShowMenu] = useState(false);
     const [showZenHiveMenu, setShowZenHiveMenu] = useState(false);
+    const [showGetInTouchDialog, setShowGetInTouchDialog] = useState(false);
 
     return (
         <DialogContext.Provider value={{
@@ -28,6 +33,8 @@ export const DialogProvider: React.FC<{ children: ReactNode }> = ({ children }) 
             setShowMenu,
             showZenHiveMenu,
             setShowZenHiveMenu,
+            showGetInTouchDialog,
+            setShowGetInTouchDialog,
         }}>
             {children}
         </DialogContext.Provider>

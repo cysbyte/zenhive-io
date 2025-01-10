@@ -46,7 +46,7 @@ const ZenHive = () => {
               ))
             }
           </div>
-          <button className='flex justify-center items-center gap-2 px-[5.5rem] py-2.5 bg-gradient-to-r from-[#C0EE02] to-[#90FF6B] rounded-lg mt-6 md:mt-8 z-50'>
+          <button className='flex justify-center items-center gap-2 px-[5.5rem] py-2.5 bg-gradient-to-r from-[#C0EE02] to-[#90FF6B] rounded-lg mt-6 md:mt-8 relative z-50'>
             <a href="/zenhive">Go</a>
             <img src={go} alt="" />
           </button>

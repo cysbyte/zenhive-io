@@ -26,11 +26,12 @@ const Home = () => {
   return (
     <main className='overflow-x-hidden bg-black h-screen'>
       <Container>
-        <div className='w-full relative bg-[#0F1110] overflow-hidden h-[1140px] md:h-[833px]'>
+        <div className='w-full relative bg-[#0F1110] overflow-hidden h-[840px] md:h-[833px]'>
           <div className='hidden md:block absolute left-0 bottom-0 z-10 w-[1962px] h-[480px] bg-gradient-to-r from-[#76EC37] to-[#B5F60100]'></div>
           <img className='hidden md:block absolute left-0 top-0 w-[1920px] h-[1020px] z-20 -ml-0' src={bg1} alt="" />
           <img className='hidden md:block absolute top-0 xl:-right-0 right-20 z-20 -mr-16 xl:mr-[11rem]' src={bgAzen} alt="" />
-          <img className='absolute left-0 top-0 block md:hidden z-1 object-cover w-full h-full' src={bgMobile} alt="" />
+          <img className='absolute left-0 top-0 block md:hidden z-1 object-cover w-full' src={bgMobile} alt="" />
+          <img className='absolute left-0 top-0 block md:hidden z-1 object-cover w-full' src={bgMobile} alt="" />
           <Header />
           <Hero />
         </div>

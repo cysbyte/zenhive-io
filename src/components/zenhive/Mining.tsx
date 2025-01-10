@@ -15,7 +15,7 @@ const Mining = () => {
                 </div>
                 <div className='w-full md:w-[1145px] mt-8 mb-48'>
                     <h5 className='font-pingFangSCLight text-white text-xl'>Empower Industries</h5>
-                    <p className='font-pingFangSCLight text-[#ADABB2] text-base mt-2'>Your mining fuels AI and data-driven services for industries like gaming, smart cities, healthcare, and entertainment. Learn More About Our Industry Solutions. </p>
+                    <p className='font-pingFangSCLight text-[#ADABB2] text-base mt-2'>Your mining fuels AI and data-driven services for industries like gaming, smart cities, healthcare, and entertainment. </p>
                 </div>
             </div>
         </ContentContainer>

@@ -14,22 +14,22 @@ const Peer = () => {
         {
             id: 1,
             title: 'Content Tokenization (NFTs)',
-            desc1: '"Transform content into monetizable NFTs"',
-            desc2: '"Unlock new revenue streams and boost sales growth"',
+            desc1: 'Transform content into monetizable NFTs;',
+            desc2: 'Unlock new revenue streams and boost sales growth',
             icon: icon1,
         },
         {
             id: 2,
             title: 'Peer-to-Peer Streaming',
-            desc1: '"Decentralized content delivery"',
-            desc2: '"Faster, low-latency video streaming"',
+            desc1: 'Decentralized content delivery;',
+            desc2: 'Faster, low-latency video streaming',
             icon: icon2,
         },
         {
             id: 3,
             title: 'Decentralized Storage',
-            desc1: '"Secure, scalable media storage"',
-            desc2: '"Reduce costs and increase reliability"',
+            desc1: 'Secure, scalable media storage;',
+            desc2: 'Reduce costs and increase reliability',
             icon: icon3,
         },
     ]

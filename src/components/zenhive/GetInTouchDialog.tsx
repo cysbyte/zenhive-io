@@ -71,7 +71,7 @@ const GetInTouchDialog = (props: GetInTouchDialogProps) => {
       ]
 
     return (
-        <dialog ref={dialogRef} className="bg-[#0D0D0D] fixed w-[630px] h-[656px] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-10  backdrop:bg-black/80 p-12 rounded-3xl hide-scrollbar">
+        <dialog ref={dialogRef} className="bg-[#0D0D0D] fixed w-[630px] h-[447px] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-10  backdrop:bg-black/80 p-12 rounded-3xl hide-scrollbar border border-[#454645]">
             <img className='absolute top-0 left-0' src={bg} alt="" />
             <div className='w-full flex justify-between items-center px-0 py-0 '>
                 <h3 className='text-[#C0EE02] text-[28px] leading-[40px] font-pingFangSCRegular font-semibold'>Get in Touch</h3>
@@ -81,7 +81,7 @@ const GetInTouchDialog = (props: GetInTouchDialogProps) => {
                 <p className='font-pingFangSCLight text-base text-white font-[300] mt-10'>If you’d like to ship a physical ZenHive device to your address and host on your own, please contact our sales representatives, they will help make your purchase swift and smooth.</p>
             </div>
             <div className='relative w-full mt-8'>
-                <img className='absolute left-0 bottom-0' src={line} alt="" />
+                {/* <img className='absolute left-0 bottom-0' src={line} alt="" /> */}
                 {
                     connects.map((item) => (
                         <div className='flex justify-start items-center gap-8 px-0 pb-6' key={item.id}>
@@ -92,7 +92,7 @@ const GetInTouchDialog = (props: GetInTouchDialogProps) => {
                 }
             </div>
 
-            <p className='mt-8 font-pingFangSCLight text-white w-[518px] text-base'>Or you may choose to get our ZenHive PrimeHost hosted at a professional data center and get the same earnings with ease:</p>
+            {/* <p className='mt-8 font-pingFangSCLight text-white w-[518px] text-base'>Or you may choose to get our ZenHive PrimeHost hosted at a professional data center and get the same earnings with ease:</p>
 
             <div className='mt-4'>
               {
@@ -105,8 +105,8 @@ const GetInTouchDialog = (props: GetInTouchDialogProps) => {
                   </div>
                 ))
               }
-            </div>
-            <div className='w-full flex justify-center items-center mt-8'>
+            </div> */}
+            <div className='w-full flex justify-center items-center mt-0'>
             <button className='mx-auto px-12 py-2 bg-black border-white text-white font-pingFangSCLight text-[20px] leading-[28px border rounded-lg' onClick={closeDialog}>Got it</button>
             </div>
 

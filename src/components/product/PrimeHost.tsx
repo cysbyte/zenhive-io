@@ -1,9 +1,8 @@
-import React from 'react'
-import bg1 from '@/assets/product/earn3/bg-prime-host1.png'
-import bg2 from '@/assets/product/earn3/bg-prime-host2.svg'
 import bgm1 from '@/assets/product/earn3/bg-prime-host-m.png'
 import bgm2 from '@/assets/product/earn3/bg-prime-host-m1.svg'
-import BuyButton from '../zenhive/BuyButton'
+import bg1 from '@/assets/product/earn3/bg-prime-host1.png'
+import bg2 from '@/assets/product/earn3/bg-prime-host2.svg'
+import React from 'react'
 
 const PrimeHost = () => {
 
@@ -49,7 +48,7 @@ const PrimeHost = () => {
               }
             </div>
             <h2 className='font-pingFangSCRegular font-semibold text-3xl md:text-[40px] md:leading-[60px] text-white mt-10'>999.95 USDT</h2>
-            <BuyButton showDialog={false}/>
+            {/* <BuyButton showDialog={false}/> */}
         </div>
     </div>
   )

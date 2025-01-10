@@ -32,7 +32,7 @@ const ZenHiveEdge = () => {
         <div className='relative w-full h-[660px] md:h-[1011px] border border-[#3D3E3D] rounded-xl mt-10 md:mt-20 mb-20 md:mb-40 overflow-hidden'>
             <img className='hidden md:block absolute right-0 top-0 z-20' src={bg} alt="" />
             
-            <img className='block md:hidden absolute object-cover w-full h-full right-0 top-4 z-20' src={bgm} alt="" />
+            <img className='block md:hidden absolute object-cover w-full h-full right-0 top-0 z-20' src={bgm} alt="" />
             <div className='w-full flex flex-col justify-start items-center text-center md:text-left px-4 md:px-0'>
                 <h4 className='font-pingFangSCRegular text-3xl md:text-5xl font-semibold text-white mt-16'>ZenHive Edge</h4>
                 <p className='font-pingFangSCLight text-base text-white mt-2 md:mt-6 tracking-wider'>A physical device delivered to your address, ready to connect to the internet and electricity to start mining.</p>

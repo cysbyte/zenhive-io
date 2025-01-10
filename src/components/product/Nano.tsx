@@ -1,9 +1,8 @@
-import React from 'react'
-import bg1 from '@/assets/product/earn3/bg-nano1.png'
-import bg2 from '@/assets/product/earn3/bg-nano2.svg'
 import bgm1 from '@/assets/product/earn3/bg-nano-m1.png'
 import bgm2 from '@/assets/product/earn3/bg-nano-m2.svg'
-import BuyButton from '../zenhive/BuyButton'
+import bg1 from '@/assets/product/earn3/bg-nano1.png'
+import bg2 from '@/assets/product/earn3/bg-nano2.svg'
+import React from 'react'
 
 const Nano = () => {
 
@@ -40,7 +39,7 @@ const Nano = () => {
               }
             </div>
         <h2 className='font-pingFangSCRegular font-semibold text-3xl md:text-[40px] md:leading-[60px] text-white mt-24 md:mt-10'>29.95 USDT</h2>
-        <BuyButton showDialog={false}/>
+        {/* <BuyButton showDialog={false}/> */}
       </div>
     </div>
   )

@@ -12,11 +12,16 @@ const MobileMenu = (props: MenuMobileProps) => {
     const items= [
         {
             id: 1,
-            name: 'ZenHive',
+            name: 'aZen',
             link: '/zenhive',
         },
         {
             id: 2,
+            name: 'ZenHive',
+            link: '/zenhive',
+        },
+        {
+            id: 3,
             name: 'Products',
             link: '/product',
         },

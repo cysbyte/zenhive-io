@@ -1,6 +1,5 @@
 import Container from '@/components/container/Container'
 import Footer from '@/components/zenhive/Footer'
-import Header from '@/components/zenhive/Header'
 import bg1 from '@/assets/zenhive/hero/bg-hero1.svg'
 import bg2 from '@/assets/product/hero/bg-hero2.svg'
 import bg3 from '@/assets/zenhive/hero/bg-hero3.svg'
@@ -17,12 +16,13 @@ import Gaming from '@/components/zenhive/Gaming'
 import Peer from '@/components/zenhive/Peer'
 import Trusted from '@/components/zenhive/Trusted'
 import { useDialogContext } from '@/providers/DialogProvider'
-import ZenHiveMenu from '@/components/mobile-menu/ZenHiveMenu'
 import GetInTouchDialog from '@/components/zenhive/GetInTouchDialog'
+import Header from '@/components/home/Header'
+import MobileMenu from '@/components/mobile-menu/MobileMenu'
 
 const ZenHive = () => {
 
-  const { showZenHiveMenu, setShowZenHiveMenu, showGetInTouchDialog, setShowGetInTouchDialog } = useDialogContext()
+  const { showMenu, setShowMenu, showGetInTouchDialog, setShowGetInTouchDialog } = useDialogContext()
 
   return (
     <main className='overflow-x-hidden bg-black h-screen'>
@@ -47,7 +47,7 @@ const ZenHive = () => {
           <Trusted />
         </div>
         <Footer />
-        {
+        {/* {
           showZenHiveMenu &&
           <Suspense fallback={<div>Loading...</div>}>
             <ZenHiveMenu
@@ -55,7 +55,18 @@ const ZenHive = () => {
               onOk={() => setShowZenHiveMenu(false)}
             />
           </Suspense>
+        } */}
+
+        {
+          showMenu &&
+          <Suspense fallback={<div>Loading...</div>}>
+            <MobileMenu
+              onClose={() => setShowMenu(false)}
+              onOk={() => setShowMenu(false)}
+            />
+          </Suspense>
         }
+
         {
           showGetInTouchDialog &&
           <Suspense fallback={<div>Loading...</div>}>

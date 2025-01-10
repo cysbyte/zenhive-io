@@ -53,7 +53,12 @@ const Footer = () => {
             </div>
             <div className='flex flex-col gap-6 md:gap-0 md:flex-row justify-between items-start md:items-center w-full md:w-[1280px] xl:px-0 px-5 md:px-10 mx-auto py-8 mb-8'>
                 <p className='font-pingFangSCLight text-white text-sm'>© 2024 aZen</p>
-                <a className='font-pingFangSCLight text-white text-sm' href="">White Paper |  Privacy Policy</a>
+                <div className='flex justify-end items-center gap-2'>
+                    <a target='_blank' className='font-pingFangSCLight text-white text-sm' href="https://azen-protocol.gitbook.io/azen-protocol-litepaper">White Paper</a>
+                    <p className='text-white'>|</p>
+                    <a target='_blank' className='font-pingFangSCLight text-white text-sm' href=" https://www.azenprotocol.io/privacy-policy.html">Privacy Policy</a>
+                </div>
+                
             </div>
         </section>
     )

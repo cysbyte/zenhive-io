@@ -27,14 +27,14 @@ const Nano = () => {
       <div className='ml-6  md:ml-[90px] mt-8 md:mt-[100px]'>
         <h4 className='font-pingFangSCRegular text-3xl text-white '>ZenHive Nano NFT</h4>
         <p className='font-pingFangSCLight text-base text-[#FFFFFF] mt-2 w-full md:w-[493px]'>A virtual machine hosted in the data center, representing 1/64th of a ZenHive device.</p>
-        <div className='mt-4'>
+        <div className='mt-4 w-full'>
               {
                 data.map((item)=>(
-                  <div className='flex justify-start items-start gap-2 mt-1'>
+                  <div className='flex justify-start items-start gap-2 mt-1 w-full'>
                     <div className='w-[10px] h-full'>
                     <div className='w-[5px] h-[5px] bg-[#ADABB2] rounded-full mt-1.5'></div>
                     </div>
-                    <p className='w-full md:w-[530px] text-[14px] leading-[20px] text-[#ADABB2] font-pingFangSCLight tracking-tightest md:tracking-wider'>{item.desc}</p>
+                    <p className='w-full md:w-[530px] text-[14px] leading-[20px] text-[#ADABB2] font-pingFangSCLight md:tracking-wider'>{item.desc}</p>
                   </div>
                 ))
               }

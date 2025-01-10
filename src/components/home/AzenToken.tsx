@@ -39,7 +39,7 @@ const AzenToken = () => {
                 <img src={azenTokenM} alt="" />
                 <h3 className='text-3xl font-inter text-white -mt-8'>$aZen Token</h3>
             </div>
-            <div className='flex flex-col md:flex-row justify-between items-center gap-10 md:gap-0 mt-4 md:mt-0 px-6 md:px-16 py-4 md:py-8 border border-[#FFFFFF3D] rounded-xl pb-16'>
+            <div className='flex flex-col md:flex-row justify-between h-auto md:h-[274px] items-start gap-10 md:gap-0 mt-4 md:mt-0 px-6 md:px-16 py-4 md:py-8 border border-[#FFFFFF3D] rounded-xl pb-16'>
                 {
                     data.map((item) => (
                         <div key={item.id} className='w-full md:w-[240px]'>

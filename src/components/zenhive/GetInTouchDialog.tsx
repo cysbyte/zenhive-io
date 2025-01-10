@@ -49,25 +49,25 @@ const GetInTouchDialog = (props: GetInTouchDialogProps) => {
         }
     ]
 
-    const data = [
-        {
-          id: 1,
-          desc: 'Start mining immediately ',
-        },
-        {
-          id: 2,
-          desc: 'Guaranteed 24-hour uptime and optimal network quality.',
-        },
-        {
-          id: 3,
-          desc: 'Free electricity and internet.',
-        },
-        {
-          id: 4,
-          desc: 'Easy ownership transfer through ZenHive PrimeHost NFT.',
-        }
+    // const data = [
+    //     {
+    //       id: 1,
+    //       desc: 'Start mining immediately ',
+    //     },
+    //     {
+    //       id: 2,
+    //       desc: 'Guaranteed 24-hour uptime and optimal network quality.',
+    //     },
+    //     {
+    //       id: 3,
+    //       desc: 'Free electricity and internet.',
+    //     },
+    //     {
+    //       id: 4,
+    //       desc: 'Easy ownership transfer through ZenHive PrimeHost NFT.',
+    //     }
         
-      ]
+    //   ]
 
     return (
         <dialog ref={dialogRef} className="bg-[#0D0D0D] fixed w-[630px] h-[447px] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-10  backdrop:bg-black/80 p-12 rounded-3xl hide-scrollbar border border-[#454645]">

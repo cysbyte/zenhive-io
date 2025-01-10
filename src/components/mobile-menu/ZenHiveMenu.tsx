@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import logo from '@/assets/zenhive/header/logo.svg'
 import close from '@/assets/home/mobile-menu/close.svg'
+import { Link } from 'react-router-dom';
 
 interface MenuMobileProps {
     onClose: () => void;
@@ -51,7 +52,7 @@ const ZenHiveMenu = (props: MenuMobileProps) => {
         <div className='px-14 flex flex-col gap-10 justify-start items-start'>
             {
                 items.map((item)=>(
-                    <a tabIndex={-1} aria-hidden="true" className='text-sm text-white cursor-pointer' key={item.id} href={item.link}>{item.name}</a>
+                    <Link tabIndex={-1} aria-hidden="true" className='text-sm text-white cursor-pointer' key={item.id} to={item.link}>{item.name}</Link>
                 ))
             }
         </div>

@@ -1,7 +1,5 @@
 import React from 'react'
 import ContentContainer from '../container/ContentContainer'
-import go from '@/assets/home/content/go.svg'
-import go1 from '@/assets/zenhive/hero/go.svg'
 
 const Hero = () => {
     return (

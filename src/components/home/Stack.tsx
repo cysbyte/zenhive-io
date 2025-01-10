@@ -12,7 +12,7 @@ const Content = () => {
         },
         {
             id: 2,
-            title: 'Depin Layer',
+            title: 'DePIN Layer',
             desc: 'Smart contracts for dfNFT dynamic scheduling and orchestration.',
         },
         {

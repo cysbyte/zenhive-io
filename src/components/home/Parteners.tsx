@@ -63,17 +63,21 @@ const Parteners = () => {
             <div className='w-full mt-20'>
                 <h5 className='font-pingFangSCLight font-normal text-2xl tracking-wide text-white w-full text-center'>Backers & Investment Partners </h5>
                 <p className='font-pingFangSCLight font-normal text-base w-full text-center text-[#999999] mt-2'>Over $70Million in Equity and Token Investment</p>
-                <div className='w-full md:w-[1204px] flex flex-wrap justify-center items-center  md:gap-16 mx-auto mt-10'>
+                <div className='w-full md:w-[1204px] flex flex-wrap justify-center items-center gap-4 md:gap-16 mx-auto mt-10'>
                     <img className='h-[20px] md:h-auto' src={backerLogo1} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo2} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo3} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo4} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo5} alt="" />
+                </div>
+                <div className='w-full md:w-[1204px] flex flex-wrap justify-center items-center gap-4 md:gap-16 mx-auto mt-10'>
                     <img className='h-[20px] md:h-auto' src={backerLogo6} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo7} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo8} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo9} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo10} alt="" />
+                </div>
+                <div className='w-full md:w-[1204px] flex flex-wrap justify-center items-center gap-4 md:gap-16 mx-auto mt-10'>
                     <img className='h-[20px] md:h-auto' src={backerLogo11} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo12} alt="" />
                     <img className='h-[20px] md:h-auto' src={backerLogo13} alt="" />

@@ -27,7 +27,7 @@ const PrimeHost = () => {
   ]
 
   return (
-    <div className='relative w-full h-[660px] md:h-[500px] border border-[#3D3E3D] md:border-[#C0EE02] rounded-xl mt-20 overflow-hidden'>
+    <div className='relative w-full h-[660px] md:h-[500px] border md:border-[#3D3E3D] md:hover:border-[#C0EE02] rounded-xl mt-20 overflow-hidden'>
         <img className='block md:hidden absolute left-0 bottom-0 object-cover w-[358px] h-[320px]' src={bgm1} alt="" />
         <img className='block md:hidden absolute left-0 top-0 w-full h-full object-cover' src={bgm2} alt="" />
         <img className='hidden md:block absolute left-0 top-0 z-30 h-[500px]' src={bg1} alt="" />

@@ -28,7 +28,7 @@ const ZenHiveEdge = () => {
     }
 
     return (
-        <div className='relative w-full h-[660px] md:h-[1011px] border border-[#3D3E3D] rounded-xl mt-10 md:mt-20 mb-20 md:mb-40 overflow-hidden'>
+        <div className='relative w-full h-[660px] md:h-[1011px] border md:border-[#3D3E3D] md:hover:border-[#C0EE02] rounded-xl mt-10 md:mt-20 mb-20 md:mb-40 overflow-hidden'>
             <img className='hidden md:block absolute right-0 top-0 z-20' src={bg} alt="" />
             
             <img className='block md:hidden absolute object-cover w-full h-full right-0 top-0 z-20' src={bgm} alt="" />

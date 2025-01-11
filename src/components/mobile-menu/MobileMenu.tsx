@@ -14,7 +14,7 @@ const MobileMenu = (props: MenuMobileProps) => {
         {
             id: 1,
             name: 'aZen',
-            link: '/zenhive',
+            link: '/',
         },
         {
             id: 2,
@@ -62,7 +62,7 @@ const MobileMenu = (props: MenuMobileProps) => {
         <div className='px-14 flex flex-col gap-10 justify-start items-start'>
             {
                 items.map((item)=>(
-                    <Link tabIndex={-1} aria-hidden="true" className='text-sm text-white cursor-pointer' key={item.id} to={item.link}>{item.name}</Link>
+                    <Link tabIndex={-1} aria-hidden="true" className='text-sm text-white cursor-pointer' onClick={handleClose} key={item.id} to={item.link}>{item.name}</Link>
                 ))
             }
         </div>

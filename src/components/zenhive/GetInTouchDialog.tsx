@@ -73,8 +73,10 @@ const GetInTouchDialog = (props: GetInTouchDialogProps) => {
         <dialog ref={dialogRef} className="bg-[#0D0D0D] fixed w-[630px] h-[447px] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-10  backdrop:bg-black/80 p-12 rounded-3xl hide-scrollbar border border-[#454645]">
             <img className='absolute top-0 left-0' src={bg} alt="" />
             <div className='w-full flex justify-between items-center px-0 py-0 '>
-                <h3 className='text-[#C0EE02] text-[28px] leading-[40px] font-pingFangSCRegular font-semibold'>Get in Touch</h3>
-                <img className='cursor-pointer' src={close} onClick={handleClose} alt="" />
+                <h3 className='text-[#C0EE02] text-[28px] leading-[40px] font-pingFangSCRegular font-semibold' >Get in Touch</h3>
+                <div className="scale-150 inline-block" onClick={handleClose}>
+                    <img className="cursor-pointer" src={close} alt="Close" />
+                </div>
             </div>
             <div>
                 <p className='font-pingFangSCLight text-base text-white font-[300] mt-10'>If you’d like to ship a physical ZenHive device to your address and host on your own, please contact our sales representatives, they will help make your purchase swift and smooth.</p>
@@ -105,8 +107,8 @@ const GetInTouchDialog = (props: GetInTouchDialogProps) => {
                 ))
               }
             </div> */}
-            <div className='w-full flex justify-center items-center mt-0'>
-            <button className='mx-auto px-12 py-2 bg-black border-white text-white font-pingFangSCLight text-[20px] leading-[28px border rounded-lg' onClick={closeDialog}>Got it</button>
+            <div className='scale-100 inline-block' onClick={handleClose}>
+            <button className='mx-auto px-12 py-2 bg-black border-white text-white font-pingFangSCLight text-[20px] leading-[28px border rounded-lg' >Got it</button>
             </div>
 
 

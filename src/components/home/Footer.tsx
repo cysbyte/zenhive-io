@@ -55,7 +55,7 @@ const Footer = () => {
         <div className='flex flex-col md:flex-row justify-between items-start md:items-center w-full md:w-[1280px] mx-auto px-6 md:px-10 xl:px-0'>
             <div className='w-full md:w-[430px]'>
                 <img src={logo} alt="" />
-                <p className='font-pingFangSCLight font-normal text-sm text-white md:text-[#999999] mt-4 tracking-wide'>aZen Protocol is transforming computing resources into dynamic fractional NFTs, scheduled by smart contracts to build the future of DePIN for universal computing.</p>
+                <p className='font-pingFangSCLight font-normal text-sm text-white md:text-[#999999] mt-4 tracking-wide'>aZen is transforming computing resources into dynamic fractional NFTs, scheduled by smart contracts to build the future of DePIN for universal computing.</p>
             </div>
 
             <div className='flex md:flex-row flex-col justify-center items-start gap-10 md:gap-14 mt-10 md:mt-0'>

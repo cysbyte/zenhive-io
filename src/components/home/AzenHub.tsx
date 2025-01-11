@@ -25,9 +25,9 @@ const AzenHub = () => {
         <ContentContainer>
             <h2 className='font-pingFangSCRegular text-[30px] leading-[45px] md:text-[72px] md:leading-[76px] tracking-[0.4px] font-semibold text-white mt-20 md:mt-[11rem] w-full text-center'>aZen Hub</h2>
             <p className='font-pingFangSCLight text-[16px] leading-[24px] md:text-xl font-normal tracking-[0.4px] text-[#ADABB2] w-full text-center mt-6 mb-8 md:mb-20 '>aZen Hub is the gateway to your DePIN experience. Integrated with the aZen DePIN protocol, users receive $aZen rewards as POC (Proof of Contribution) for sharing computing resources.</p>
-            <div className='w-full h-[680px] md:h-[616px] relative rounded-2xl overflow-hidden border border-[#3D3E3D]'>
-                <img className='hidden md:block absolute top-0 -right-72 w-full h-full' src={bgAzenHub} alt="" />
-                <img className='block md:hidden absolute -bottom-40 right-0 w-full h-full' src={bgAzenHub} alt="" />
+            <div id="azen-hub" className='w-full h-[708px] md:h-[616px] relative rounded-2xl overflow-hidden border border-[#3D3E3D]'>
+                <img className='hidden md:block absolute top-0 -right-72 w-full h-full ' src={bgAzenHub} alt="" />
+                <img className='block md:hidden absolute -bottom-40 right-0 w-full h-full ' src={bgAzenHub} alt="" />
                 <div>
                     <div className='flex justify-start items-center gap-12 md:gap-24 mt-8 md:mt-48 ml-6 md:ml-8'>
                         {

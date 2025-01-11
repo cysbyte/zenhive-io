@@ -18,11 +18,12 @@ import MobileMenu from '@/components/mobile-menu/MobileMenu'
 import { useDialogContext } from '@/providers/DialogProvider'
 import React, { Suspense } from 'react'
 import Header from '../components/home/Header'
-
+import bgStack1 from '@/assets/home/content/stack/bg1.png'
+import bgStack2 from '@/assets/home/content/stack/bg2.svg'
 
 const Home = () => {
 
-  const {showMenu, setShowMenu} = useDialogContext()
+  const { showMenu, setShowMenu } = useDialogContext()
 
   return (
     <main className='overflow-x-hidden bg-black h-screen'>
@@ -31,7 +32,7 @@ const Home = () => {
           {/* <div className='hidden md:block absolute left-0 bottom-0 z-10 w-[1962px] h-[480px] bg-gradient-to-r from-[#76EC37] to-[#B5F60100]'></div>
           <img className='hidden md:block absolute left-0 top-0 w-[1920px] h-[1020px] z-20 -ml-0' src={bg1} alt="" />
           <img className='hidden md:block absolute top-0 xl:-right-0 right-20 z-20 -mr-16 xl:mr-[11rem]' src={bgAzen} alt="" /> */}
-          <img className='hidden md:block absolute top-0 xl:-right-0 right-20 z-20' src={bg} alt="" /> 
+          <img className='hidden md:block absolute top-0 xl:-right-0 right-20 z-20' src={bg} alt="" />
           <img className='absolute left-0 top-0 block md:hidden z-1 object-cover w-full' src={bgMobile} alt="" />
           <img className='absolute left-0 top-0 block md:hidden z-1 object-cover w-full' src={bgMobile} alt="" />
           <Header />
@@ -39,8 +40,15 @@ const Home = () => {
         </div>
 
         <div className='w-full relative bg-[#0F1110]'>
+            {/* <img className='w-full h-[1200px] absolute top-[26rem] left-0 mix-blend-lighten' src={bgStack1} alt="" />
+            <div className='w-full absolute left-0 top-[26rem] h-[700px] bg-[#B6F55E] mix-blend-hue'></div>
+            <div className='absolute top-0 left-0 w-full h-full bg-[#0F1110] mix-blend-hue'>
+            </div> */}
+
           <Stack />
           <AzenHub />
+        </div>
+        <div className='w-full relative bg-[#0F1110]'>
           <AzenDepin />
           <AzenToken />
           <ZenHive />
@@ -50,15 +58,15 @@ const Home = () => {
           <Featured />
         </div>
         <Footer />
-      {
-        showMenu &&
-        <Suspense fallback={<div>Loading...</div>}>
-          <MobileMenu
-            onClose={() => setShowMenu(false)}
-            onOk={() => setShowMenu(false)}
-          />
-        </Suspense>
-      }
+        {
+          showMenu &&
+          <Suspense fallback={<div>Loading...</div>}>
+            <MobileMenu
+              onClose={() => setShowMenu(false)}
+              onOk={() => setShowMenu(false)}
+            />
+          </Suspense>
+        }
       </Container>
 
     </main>

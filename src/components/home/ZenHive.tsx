@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import ContentContainer from '../container/ContentContainer'
 import bg from '@/assets/home/content/bg-zenhive.png'
 import bgm from '@/assets/home/content/bg-zenhive-m.svg'
@@ -6,6 +7,10 @@ import check from '@/assets/home/content/check.svg'
 import go from '@/assets/home/content/go.svg'
 
 const ZenHive = () => {
+  const navigate = useNavigate();
+  const handleClick = (page: string) => {
+    navigate(page);
+  };
   const data = [
     {
       id: 1,
@@ -28,7 +33,7 @@ const ZenHive = () => {
       icon: check,
     },
   ]
-  return (
+  return (    
     <ContentContainer>
       <div id='zenhive' className='relative w-full h-[680px] md:h-[697px] border border-[#3D3E3D] rounded-xl mt-20 md:mt-40'>
         <img className='hidden md:block absolute top-0 left-0 w-full h-full' src={bg} alt="" />
@@ -46,8 +51,9 @@ const ZenHive = () => {
               ))
             }
           </div>
-          <button className='flex justify-center items-center gap-2 px-[5.5rem] py-2.5 bg-gradient-to-r from-[#C0EE02] to-[#90FF6B] rounded-lg mt-6 md:mt-8 relative z-50'>
-            <a href="/zenhive">Go</a>
+          <button className='flex justify-center items-center gap-2 px-[5.5rem] py-2.5 bg-gradient-to-r from-[#C0EE02] to-[#90FF6B] rounded-lg mt-6 md:mt-8 relative z-50'
+            onClick={() => handleClick('/zenhive')} >
+            Go
             <img src={go} alt="" />
           </button>
         </div>

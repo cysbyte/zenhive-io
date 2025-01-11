@@ -51,7 +51,7 @@ const Footer = () => {
       }
 
   return (
-    <section className=' bg-[#151516] pt-6 md:pt-12 pb-10 md:pb-60'>
+    <section className=' bg-[#151516] h-[326px] pt-6 md:pt-12 pb-10 md:pb-60'>
         <div className='flex flex-col md:flex-row justify-between items-start md:items-center w-full md:w-[1280px] mx-auto px-6 md:px-10 xl:px-0'>
             <div className='w-full md:w-[430px]'>
                 <img src={logo} alt="" />
@@ -95,7 +95,12 @@ const Footer = () => {
         <div className='flex flex-col md:flex-row justify-between items-start md:items-center w-full md:w-[1280px] px-6 gap-4 md:gap-0 md:px-10 xl:px-0 mx-auto py-8 border-t-[0.5px] border-t-[#717171] mt-16'>
             {/* <p className='font-pingFangSCLight font-normal text-sm text-white md:text-[#999999]'>© 2024 aZen Protocol. All Rights Reserved.</p> */}
             <p className='font-pingFangSCLight font-normal text-sm text-white md:text-[#999999]'> </p>
-            <a className='font-pingFangSCLight font-normal text-sm text-white md:text-[#999999]' href="">Terms of Use |  Privacy Policy</a>
+            {/* <a className='font-pingFangSCLight font-normal text-sm text-white md:text-[#999999]' href="">Terms of Use |  Privacy Policy</a> */}
+            <div className='flex justify-end items-center gap-2'>
+                    <a target='_blank' className='font-pingFangSCLight text-white text-sm' href="https://www.azenprotocol.io/terms-and-conditions.html">Terms of Use</a>
+                    <p className='text-white'>|</p>
+                    <a target='_blank' className='font-pingFangSCLight text-white text-sm' href=" https://www.azenprotocol.io/privacy-policy.html">Privacy Policy</a>
+            </div>
         </div>
     </section>
   )

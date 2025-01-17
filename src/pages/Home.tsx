@@ -18,8 +18,6 @@ import MobileMenu from '@/components/mobile-menu/MobileMenu'
 import { useDialogContext } from '@/providers/DialogProvider'
 import React, { Suspense } from 'react'
 import Header from '../components/home/Header'
-import bgStack1 from '@/assets/home/content/stack/bg1.png'
-import bgStack2 from '@/assets/home/content/stack/bg2.svg'
 
 const Home = () => {
 

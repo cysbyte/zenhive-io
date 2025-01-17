@@ -1,1 +1,1 @@
-This website has already been deployed to [zenhive-io.vercel.app](zenhive-io.vercel.app)
+This website has already been deployed to [https://zenhive-io.vercel.app](https://zenhive-io.vercel.app)
